@@ -159,15 +159,24 @@ The AI Customer Onboarding Platform is built on a comprehensive 12-specification
 
 **Cross-References:** All specifications (CI/CD, deployment, governance)
 
-### Specification 8: Testing Architecture (Parts 1–5)
+### Specification 8: Testing Architecture (Parts 1–10)
 **Purpose:** Ensure enterprise-wide quality through comprehensive testing across all layers and quality attributes.
 
 **Key Domains:**
+
+**Parts 1–5: Testing Foundation**
 - Testing Vision & Strategy (test pyramid, principles)
 - Functional Testing (unit, integration, system, UAT)
 - Non-Functional Testing (performance, load, scalability, reliability)
 - Security Testing (vulnerability, penetration, API security, compliance)
 - Data Testing (validation, ETL, migration, quality, governance)
+
+**Parts 6–10: Advanced Testing & Governance**
+- AI Testing Architecture (prompt testing, model evaluation, RAG, bias/governance)
+- Test Automation Architecture (framework, execution, environments, reporting)
+- Test Management Architecture (planning, test cases, defect management, metrics)
+- Testing Governance Architecture (policies, KPIs, audit, compliance)
+- Enterprise Implementation Guidelines & Conclusion
 
 **Cross-References:** All 7 specifications (quality validation integrated throughout)
 
@@ -218,9 +227,9 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] Integration Architecture Specification (Parts 1–10) — Complete
 - [x] Infrastructure Architecture Specification (Parts 1–10) — Complete
 - [x] DevSecOps Architecture Specification (Parts 1–10) — Complete
-- [x] Testing Architecture Specification (Parts 1–5) — Complete
+- [x] Testing Architecture Specification (Parts 1–10) — Complete
 
-All 13 specifications complete with 110+ bidirectional cross-references.
+All 13 specifications complete with 158+ bidirectional cross-references (100+ parts total).
 
 ## Related Documentation
 
