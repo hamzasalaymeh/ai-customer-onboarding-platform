@@ -39,7 +39,16 @@ service without Docker.
 
 ## Documentation
 
-Start with [`docs/README.md`](docs/README.md) for architecture, API, and
+### Quick Links
+
+- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 12-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps)
+- **[Technical Architecture](docs/architecture.md)** — Component diagrams and data flow
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1000+ topics
+- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping
+- **[API Reference](docs/api-reference.md)** — REST API specification
+- **[Getting Started](docs/getting-started.md)** — Developer quick-start guide
+
+Start with [`docs/README.md`](docs/README.md) for complete architecture, API, and
 onboarding-flow documentation.
 
 ## Testing

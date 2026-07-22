@@ -1,5 +1,11 @@
 # Architecture
 
+## Quick Links
+
+- **[Enterprise Architecture Overview](./enterprise-architecture.md)** — Complete 12-specification architecture framework
+- **[Architecture Topic Index](./architecture-index.md)** — Searchable index of 1000+ topics
+- **[Cross-Reference Matrix](./cross-reference-matrix.md)** — Bidirectional specification mapping
+
 ## Overview
 
 ```
@@ -16,6 +22,8 @@
                               │             │ │  doc check)│ │ providers  │
                               └─────────────┘ └────────────┘ └────────────┘
 ```
+
+This diagram shows the technical component layer. See [Enterprise Architecture Overview](./enterprise-architecture.md) for the complete 7-layer enterprise architecture including Workflow Engine, Business Rules Engine, Security, AI, Integration, Infrastructure, and DevSecOps specifications.
 
 ## Components
 
