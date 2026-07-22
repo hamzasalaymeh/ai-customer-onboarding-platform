@@ -159,6 +159,18 @@ The AI Customer Onboarding Platform is built on a comprehensive 12-specification
 
 **Cross-References:** All specifications (CI/CD, deployment, governance)
 
+### Specification 8: Testing Architecture (Parts 1–5)
+**Purpose:** Ensure enterprise-wide quality through comprehensive testing across all layers and quality attributes.
+
+**Key Domains:**
+- Testing Vision & Strategy (test pyramid, principles)
+- Functional Testing (unit, integration, system, UAT)
+- Non-Functional Testing (performance, load, scalability, reliability)
+- Security Testing (vulnerability, penetration, API security, compliance)
+- Data Testing (validation, ETL, migration, quality, governance)
+
+**Cross-References:** All 7 specifications (quality validation integrated throughout)
+
 ## Document Relationship Matrix
 
 | Document | Purpose | Owner | Status |
@@ -175,10 +187,13 @@ The AI Customer Onboarding Platform is built on a comprehensive 12-specification
 | Integration Architecture Specification (1–10) | Service integration | Integration Team | ✓ |
 | Infrastructure Architecture Specification (1–10) | Cloud infrastructure | Infrastructure Team | ✓ |
 | DevSecOps Architecture Specification (1–10) | Delivery automation | DevOps Team | ✓ |
+| Testing Architecture Specification (1–5) | Quality assurance | QA/Testing Team | ✓ |
 
 ## Searchable Topic Index
 
-See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 12 specifications with 50+ topics per specification and 1000+ total indexed topics.
+See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 13 specifications with 50+ topics per specification and 1000+ total indexed topics.
+
+See [Testing Topic Index](./testing-topic-index.md) for detailed testing topics across all 5 parts of Testing Architecture Specification.
 
 ## Cross-Reference Matrix
 
@@ -203,13 +218,16 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] Integration Architecture Specification (Parts 1–10) — Complete
 - [x] Infrastructure Architecture Specification (Parts 1–10) — Complete
 - [x] DevSecOps Architecture Specification (Parts 1–10) — Complete
+- [x] Testing Architecture Specification (Parts 1–5) — Complete
 
-All 12 specifications complete with 49+ bidirectional cross-references.
+All 13 specifications complete with 110+ bidirectional cross-references.
 
 ## Related Documentation
 
 - [Architecture (Technical Components)](./architecture.md) — Component overview and data flow
 - [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 1000+ topics
+- [Testing Architecture](./testing-architecture.md) — Testing specification overview
+- [Testing Topic Index](./testing-topic-index.md) — Detailed testing topics (140+)
 - [Cross-Reference Matrix (Specification Links)](./cross-reference-matrix.md) — Bidirectional specification mapping
 - [API Reference](./api-reference.md) — REST API specification
 - [Getting Started](./getting-started.md) — Developer quick-start guide

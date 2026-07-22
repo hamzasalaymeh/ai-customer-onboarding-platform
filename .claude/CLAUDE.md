@@ -6,10 +6,11 @@ A platform that helps businesses onboard new customers with an AI-assisted
 guided flow: multi-step forms, document/KYC verification, and a
 conversational assistant that answers questions and unblocks stuck users.
 
-Built on a comprehensive 12-specification enterprise architecture framework
+Built on a comprehensive 13-specification enterprise architecture framework
 including Workflow Engine, Business Rules Engine, Security Architecture, AI
-Architecture, Integration Architecture, Infrastructure Architecture, and
-DevSecOps Architecture. See [Enterprise Architecture Overview](../docs/enterprise-architecture.md)
+Architecture, Integration Architecture, Infrastructure Architecture, DevSecOps
+Architecture, and Testing Architecture (cross-cutting quality assurance).
+See [Enterprise Architecture Overview](../docs/enterprise-architecture.md)
 for complete architectural documentation.
 
 ## Stack

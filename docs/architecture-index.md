@@ -4,6 +4,7 @@ Comprehensive index of 1000+ architectural topics across all 12 enterprise archi
 
 ## Quick Navigation
 
+- [Testing Architecture Topics](#testing-architecture-topics) — 140+ topics across Parts 1–5
 - [DevSecOps Architecture Topics](#devsecops-architecture-topics) — 50+ topics across Parts 1–10
 - [Infrastructure Architecture Topics](#infrastructure-architecture-topics) — 50+ topics across Parts 1–10
 - [Security Architecture Topics](#security-architecture-topics) — 50+ topics across Parts 1–10
@@ -11,6 +12,106 @@ Comprehensive index of 1000+ architectural topics across all 12 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Testing Architecture Topics
+
+### Testing Overview (Part 1)
+- Testing Vision
+- Testing Objectives
+- Testing Principles
+- Enterprise Testing Model
+- Test Pyramid
+- Shift Left Testing
+- Risk-Based Testing
+- Continuous Validation
+- Automation-First Testing
+- End-to-End Quality Assurance
+- Enterprise Traceability
+- Regulatory Compliance
+
+### Functional Testing Architecture (Part 2)
+- Unit Testing
+- Integration Testing
+- System Testing
+- User Acceptance Testing (UAT)
+- Business Logic Validation
+- Service-to-Service Testing
+- API Integration Testing
+- Database Integration Testing
+- Event-Driven Testing
+- External System Integration
+- Error Handling Validation
+- Transaction Consistency
+- Role-Based Testing
+- Workflow Execution Testing
+- Configuration Validation
+
+### Non-Functional Testing Architecture (Part 3)
+- Performance Testing
+- Response Time Measurement
+- Throughput Testing
+- Resource Utilization Testing
+- Latency Measurement
+- Performance Baselines
+- Performance Regression
+- Load Testing
+- Stress Testing
+- Peak Load Testing
+- Capacity Testing
+- Scalability Testing
+- Horizontal Scaling
+- Vertical Scaling
+- Reliability Testing
+- High Availability Testing
+- Fault Tolerance Testing
+- Auto-Scaling Verification
+- Availability Testing
+- Backup Restoration Testing
+- Disaster Recovery Testing
+- Failover Testing
+
+### Security Testing Architecture (Part 4)
+- Vulnerability Assessment
+- Vulnerability Scanning
+- Dependency Analysis
+- Configuration Assessment
+- Infrastructure Assessment
+- Penetration Testing
+- External Attack Surface Testing
+- Internal Attack Scenario Testing
+- Authentication Testing
+- Authorization Testing
+- Privilege Escalation Testing
+- Business Logic Abuse Testing
+- API Security Testing
+- Compliance Validation
+- OWASP ASVS Alignment
+- Regulatory Compliance Testing
+
+### Data Testing Architecture (Part 5)
+- Data Validation Testing
+- Input Validation
+- Business Rule Validation
+- Schema Validation
+- Mandatory Field Validation
+- Data Type Validation
+- Database Testing
+- ETL Testing
+- Stored Procedure Testing
+- Data Transformation Testing
+- Referential Integrity Testing
+- Transaction Consistency Testing
+- Data Migration Testing
+- Source-to-Target Mapping
+- Data Reconciliation
+- Record Count Verification
+- Data Quality Testing
+- Data Completeness Testing
+- Data Consistency Testing
+- Duplicate Detection
+- Accuracy Verification
 
 ---
 
