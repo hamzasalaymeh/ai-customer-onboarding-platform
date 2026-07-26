@@ -8,8 +8,8 @@
 - [`testing-topic-index.md`](testing-topic-index.md) — Detailed testing topics (200+ across 10 parts).
 - [`operations-architecture.md`](operations-architecture.md) — Operations Architecture specification overview and framework (6 parts).
 - [`operations-topic-index.md`](operations-topic-index.md) — Detailed operations topics (60+ across 6 parts).
-- [`data-governance-architecture.md`](data-governance-architecture.md) — Data Governance Architecture specification overview and framework (5 parts).
-- [`data-governance-topic-index.md`](data-governance-topic-index.md) — Detailed data governance topics (70+ across 5 parts).
+- [`data-governance-architecture.md`](data-governance-architecture.md) — Data Governance Architecture specification overview and framework (6 parts).
+- [`data-governance-topic-index.md`](data-governance-topic-index.md) — Detailed data governance topics (80+ across 6 parts).
 - [`cross-reference-matrix.md`](cross-reference-matrix.md) — Bidirectional cross-reference mapping showing 275+ interconnection points between all specifications.
 
 ## Technical Architecture & Getting Started
