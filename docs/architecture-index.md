@@ -1,10 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1380+ architectural topics across all 17 enterprise architecture specifications.
+Comprehensive index of 1430+ architectural topics across all 17 enterprise architecture specifications.
 
 ## Quick Navigation
 
-- [IAM Architecture Topics](#iam-architecture-topics) — 50+ topics across Parts 1–2
+- [IAM Architecture Topics](#iam-architecture-topics) — 100+ topics across Parts 1–6
 - [Analytics & Business Intelligence Topics](#analytics--business-intelligence-topics) — 80+ topics across Parts 1–6
 - [Data Governance Architecture Topics](#data-governance-architecture-topics) — 80+ topics across Parts 1–6
 - [Testing Architecture Topics](#testing-architecture-topics) — 200+ topics across Parts 1–10
@@ -176,6 +176,152 @@ Comprehensive index of 1380+ architectural topics across all 17 enterprise archi
 - Audit Logging
 - Disaster Recovery
 - User Training
+
+### Privileged Access Management (Part 3)
+- PAM Vision
+- Privileged Identity Management
+- Credential Vault
+- Credential Lifecycle
+- Password Rotation
+- Secret Management
+- Just-In-Time Access
+- Just-Enough Access
+- Time-Limited Access
+- Session Recording
+- Keystroke Monitoring
+- Hardware Security Modules
+- Session Replay
+- Real-Time Monitoring
+- Session Alerts
+- Session Termination
+- Session Compliance
+- Privileged Session Analytics
+
+### Identity Federation & Integration (Part 4)
+- Federation Architecture
+- Trust Relationships
+- Identity Provider
+- Service Provider
+- Federation Protocols
+- Federated Access
+- Federation Governance
+- Federation Security
+- SAML Architecture
+- SAML Assertions
+- SAML Bindings
+- SAML Metadata
+- SP-Initiated Flow
+- IdP-Initiated Flow
+- SAML Security
+- SAML Compliance
+- OAuth 2.0 Framework
+- OAuth Flows
+- Token Types
+- Scope Management
+- OpenID Connect
+- ID Tokens
+- User Info Endpoint
+- Token Security
+- Federation Gateway
+- Gateway Architecture
+- Gateway Routing
+- Protocol Translation
+- Attribute Mapping
+- Gateway Security
+- Gateway Monitoring
+- Gateway Scaling
+- Gateway Integration
+
+### Advanced Authentication Services (Part 5)
+- SSO Architecture
+- SSO Session
+- SSO Token
+- Cross-Domain SSO
+- SSO Policies
+- SSO User Experience
+- SSO Security
+- SSO Compliance
+- MFA Framework
+- MFA Factors
+- MFA Methods
+- MFA Enforcement
+- MFA Challenges
+- MFA Policies
+- MFA Compliance
+- MFA User Experience
+- Adaptive Strategy
+- Risk Scoring
+- Context Evaluation
+- Step-Up Authentication
+- Anomaly Detection
+- Machine Learning
+- Continuous Authentication
+- Behavioral Analysis
+- Risk Assessment
+- Risk Quantification
+- Risk Factors
+- Risk Policies
+- Risk Remediation
+- Risk Monitoring
+- Risk Reporting
+- Risk Compliance
+
+### IAM Governance & Enterprise Readiness (Part 6)
+- Governance Structure
+- IAM Policies
+- IAM Standards
+- IAM Procedures
+- IAM Roles & Responsibilities
+- Governance Oversight
+- Policy Enforcement
+- Continuous Improvement
+- Identity Compliance
+- Compliance Frameworks
+- Compliance Controls
+- Compliance Reporting
+- Audit Procedures
+- Audit Trails
+- Audit Scope
+- Audit Frequency
+- Identity Monitoring
+- Monitoring Dashboards
+- Alerting
+- Threat Detection
+- Risk Assessment
+- Risk Mitigation
+- Incident Response
+- Forensics
+- External Identity
+- B2B Identity
+- B2C Identity
+- Customer Identity
+- Partner Identity
+- Vendor Identity
+- External Identity Federation
+- External Identity Governance
+- Implementation Phases
+- Discovery & Planning
+- Foundation Deployment
+- Authentication Services
+- Authorization Deployment
+- Governance Implementation
+- Continuous Improvement
+- Maturity Model
+- Level 1: Initial
+- Level 2: Managed
+- Level 3: Defined
+- Level 4: Measured
+- Level 5: Optimized
+- IAM Architecture Review
+- Identity Lifecycle Coverage
+- Authentication Completeness
+- Authorization Consistency
+- Governance Compliance
+- Security Controls
+- Compliance Requirements
+- Monitoring Coverage
+- Documentation Completeness
+- Production Readiness
 
 ---
 

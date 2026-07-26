@@ -47,12 +47,12 @@ service without Docker.
 - **[Operations Architecture](docs/operations-architecture.md)** — Service management framework
 - **[Data Governance Architecture](docs/data-governance-architecture.md)** — Data governance framework
 - **[Analytics & Business Intelligence Architecture](docs/analytics-bi-architecture.md)** — Analytics and BI framework
-- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1380+ topics
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1430+ topics
 - **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (200+ across 10 parts)
 - **[Operations Topic Index](docs/operations-topic-index.md)** — Operations topics (60+ across 6 parts)
 - **[Data Governance Topic Index](docs/data-governance-topic-index.md)** — Data governance topics (80+ across 6 parts)
 - **[Analytics & Business Intelligence Topic Index](docs/analytics-bi-topic-index.md)** — Analytics topics (80+ across 6 parts)
-- **[IAM Topic Index](docs/iam-topic-index.md)** — Identity and access management topics (50+ across 2 parts)
+- **[IAM Topic Index](docs/iam-topic-index.md)** — Identity and access management topics (100+ across 6 parts)
 - **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (350+ interconnections)
 - **[API Reference](docs/api-reference.md)** — REST API specification
 - **[Getting Started](docs/getting-started.md)** — Developer quick-start guide
