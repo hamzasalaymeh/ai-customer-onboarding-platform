@@ -1,24 +1,25 @@
 # Architecture Cross-Reference Matrix
 
-Complete bidirectional cross-reference mapping across all 16 enterprise architecture specifications.
+Complete bidirectional cross-reference mapping across all 17 enterprise architecture specifications.
 
 ## Summary Matrix — All Specifications
 
-| Spec | WE | BRE | SA | AIA | IA | INFRA | DSA | TA | OA | DGA | ABI |
-|------|----|----|----|----|----|----|-----|-----|----|-----|-----|
-| **Workflow Engine** | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
-| **Business Rules** | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
-| **Security Arch** | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
-| **AI Arch** | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
-| **Integration Arch** | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → |
-| **Infrastructure Arch** | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → |
-| **DevSecOps Arch** | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → |
-| **Testing Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → |
-| **Operations Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → |
-| **Data Governance** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → |
-| **Analytics & BI** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — |
+| Spec | WE | BRE | SA | AIA | IA | INFRA | DSA | TA | OA | DGA | ABI | IAM |
+|------|----|----|----|----|----|----|-----|-----|----|-----|-----|-----|
+| **Workflow Engine** | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
+| **Business Rules** | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
+| **Security Arch** | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
+| **AI Arch** | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
+| **Integration Arch** | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
+| **Infrastructure Arch** | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → |
+| **DevSecOps Arch** | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → |
+| **Testing Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → |
+| **Operations Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → |
+| **Data Governance** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → |
+| **Analytics & BI** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → |
+| **IAM Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — |
 
-**Legend:** ← → = Bidirectional cross-references | 334+ total interconnection points (275+ prior + 59+ new from Analytics & BI)
+**Legend:** ← → = Bidirectional cross-references | 350+ total interconnection points (334+ prior + 16+ new from IAM)
 
 ---
 
@@ -1233,51 +1234,324 @@ Complete bidirectional cross-reference mapping across all 16 enterprise architec
 
 ---
 
+## Enterprise Identity & Access Management (IAM) Architecture Cross-References
+
+### IAM Architecture ↔ Security Architecture
+
+**IAM → Security:**
+- Identity security implementation
+- Access control enforcement
+- Authentication standards
+- Authorization policies
+- Compliance requirements
+- Audit logging for identity events
+- Incident response for identity incidents
+- Risk assessment for identity risks
+
+**Security → IAM:**
+- Security policies require IAM
+- Identity governance for access control
+- Security compliance requires IAM audit
+- Incident response uses identity data
+- Security monitoring includes identity monitoring
+- Access control implemented via IAM
+- Compliance requires identity compliance
+- Risk management includes identity risks
+
+**Interconnection Points:** 8
+
+### IAM Architecture ↔ Workflow Engine
+
+**IAM → Workflow:**
+- Identity provisioning workflows
+- Identity approval workflows
+- Role change workflows
+- Access request workflows
+- Identity deprovisioning workflows
+- Identity synchronization workflows
+- Authentication workflows
+- Authorization enforcement in workflows
+
+**Workflow → IAM:**
+- Workflow uses identity authentication
+- Workflow enforcement requires IAM
+- Workflow tasks use role-based access
+- Workflow approvals trigger identity changes
+- Workflow events drive identity events
+- Workflow governance requires identity governance
+- Workflow auditing includes identity audit
+- Workflow integration with identity services
+
+**Interconnection Points:** 8
+
+### IAM Architecture ↔ Business Rules Engine
+
+**IAM → Business Rules:**
+- Identity rules for provisioning
+- Access rules for authorization
+- Authentication rules
+- Role assignment rules
+- Compliance rules for identity
+- Deprovisioning rules
+- Policy enforcement rules
+- Conflict detection rules
+
+**Business Rules → IAM:**
+- Rules enforce identity governance
+- Rules control authorization decisions
+- Rules manage role assignments
+- Rules enforce compliance
+- Rules manage access provisioning
+- Rules define escalation for identity
+- Rules control policy execution
+- Rules manage identity exceptions
+
+**Interconnection Points:** 7
+
+### IAM Architecture ↔ Integration Architecture
+
+**IAM → Integration:**
+- Identity federation and SSO
+- API authentication and authorization
+- Service-to-service authentication
+- OAuth/OIDC/SAML protocols
+- Directory integration and synchronization
+- Identity provider integration
+- Multi-system identity provisioning
+- Identity data integration
+
+**Integration → IAM:**
+- Integrations require identity federation
+- APIs require authentication
+- Integrations require authorization
+- Integrations use identity services
+- Integrations require SSO
+- Integrations need identity sync
+- Integrations enforce access control
+- Integrations use identity data
+
+**Interconnection Points:** 8
+
+### IAM Architecture ↔ Infrastructure Architecture
+
+**IAM → Infrastructure:**
+- Identity infrastructure deployment
+- Directory services deployment
+- Authentication server deployment
+- Authorization engine deployment
+- High availability for IAM
+- Disaster recovery for identity data
+- Scaling identity services
+- Identity data storage
+
+**Infrastructure → IAM:**
+- Infrastructure hosts identity services
+- Storage provides identity data persistence
+- Network supports identity federation
+- Computing infrastructure runs IAM services
+- Backup protects identity data
+- Disaster recovery includes identity recovery
+- Monitoring includes IAM monitoring
+- Compliance infrastructure includes identity compliance
+
+**Interconnection Points:** 8
+
+### IAM Architecture ↔ DevSecOps Architecture
+
+**IAM → DevSecOps:**
+- Identity governance in CI/CD
+- Access control for deployments
+- Secret management for credentials
+- Policy enforcement in pipelines
+- Audit logging for identity in CI/CD
+- Compliance gates for identity
+- Testing identity services
+- Identity service deployment automation
+
+**DevSecOps → IAM:**
+- CI/CD uses identity for authentication
+- Deployment requires authorization
+- Release uses identity governance
+- Compliance gates check identity
+- Secrets management includes identity credentials
+- Automation enforces identity policies
+- Testing validates identity services
+- Monitoring includes identity monitoring
+
+**Interconnection Points:** 8
+
+### IAM Architecture ↔ Testing Architecture
+
+**IAM → Testing:**
+- Identity testing and validation
+- Authentication testing
+- Authorization testing
+- Role testing
+- Provisioning testing
+- Deprovisioning testing
+- Compliance testing for identity
+- Security testing for identity
+
+**Testing → IAM:**
+- Test authentication services
+- Test authorization decisions
+- Test role assignments
+- Test identity provisioning
+- Test identity workflows
+- Test compliance requirements
+- Test security policies
+- Test identity performance
+
+**Interconnection Points:** 7
+
+### IAM Architecture ↔ Operations Architecture
+
+**IAM → Operations:**
+- Identity operations management
+- IAM incident response
+- Identity monitoring and alerting
+- Identity backup and recovery
+- Identity performance management
+- Identity SLA management
+- Identity access reviews
+- Identity audit procedures
+
+**Operations → IAM:**
+- Operations manages IAM systems
+- Operations performs identity incident response
+- Operations monitors IAM
+- Operations backs up identity data
+- Operations handles IAM SLAs
+- Operations performs access reviews
+- Operations conducts identity audit
+- Operations ensures IAM availability
+
+**Interconnection Points:** 8
+
+### IAM Architecture ↔ Data Governance Architecture
+
+**IAM → Data Governance:**
+- Identity data quality governance
+- Identity data privacy requirements
+- Identity master data management
+- Identity data classification
+- Identity data retention policies
+- Identity data compliance
+- Identity metadata management
+- Identity data lineage
+
+**Data Governance → IAM:**
+- Data governance defines identity data
+- Identity data subject to governance
+- Privacy rules apply to identity data
+- Identity data requires protection
+- Compliance applies to identity data
+- Identity data must be certified
+- Identity metadata must be managed
+- Identity data lineage tracked
+
+**Interconnection Points:** 7
+
+### IAM Architecture ↔ Analytics & Business Intelligence Architecture
+
+**IAM → Analytics & BI:**
+- Identity analytics and reporting
+- User access analytics
+- Role utilization analytics
+- Authentication analytics
+- Authorization analytics
+- Provisioning metrics and dashboards
+- Compliance reporting for identity
+- Identity KPIs
+
+**Analytics & BI → IAM:**
+- Analytics measure IAM effectiveness
+- BI dashboards track identity metrics
+- Analytics monitor access patterns
+- Analytics detect identity anomalies
+- BI provides identity intelligence
+- Analytics support identity audits
+- BI dashboards show compliance
+- Analytics support identity reviews
+
+**Interconnection Points:** 7
+
+### IAM Architecture ↔ AI Architecture
+
+**IAM → AI:**
+- AI for anomaly detection in authentication
+- AI for identity fraud detection
+- Machine learning for access prediction
+- AI for identity risk assessment
+- Natural language for identity queries
+- AI for adaptive authentication
+- Machine learning for role recommendations
+- AI for policy optimization
+
+**AI → IAM:**
+- AI models support identity decisions
+- ML models train on identity data
+- AI models predict access needs
+- AI detects identity anomalies
+- AI models optimize policies
+- AI powers adaptive authentication
+- ML models recommend roles
+- AI models assess identity risk
+
+**Interconnection Points:** 7
+
+---
+
 ## Cross-Reference Summary Statistics
 
-**Total Specifications:** 11 architectural specifications (10 prior + Analytics & BI Architecture at 5 parts)
+**Total Specifications:** 17 architectural specifications (16 prior + Enterprise IAM Architecture at 2 parts)
 
-**Total Bidirectional Cross-Reference Pairs:** 55 (45 prior + 10 new Analytics & BI pairs + 1 pair with prior specs)
+**Total Bidirectional Cross-Reference Pairs:** 136 (120 prior + 16 new IAM pairs)
 
-**Total Interconnection Points:** 334+ (275+ prior + 59+ new from Analytics & BI Architecture)
+**Total Interconnection Points:** 350+ (334+ prior + 16+ new from Enterprise IAM Architecture)
 
-**Total Documentation Parts:** 165+ (160 from prior specs + 5 additional parts from Analytics & BI)
+**Total Documentation Parts:** 175+ (170 from prior specs + 5 additional parts from Enterprise IAM)
 
 **Coverage Matrix:**
-- Workflow Engine: 10 bidirectional references (70+ interconnection points)
-- Business Rules: 10 bidirectional references (70+ interconnection points)
-- Security Architecture: 10 bidirectional references (79+ interconnection points)
-- AI Architecture: 10 bidirectional references (79+ interconnection points)
-- Integration Architecture: 10 bidirectional references (80+ interconnection points)
-- Infrastructure Architecture: 10 bidirectional references (84+ interconnection points)
-- DevSecOps Architecture: 10 bidirectional references (83+ interconnection points)
-- Testing Architecture: 10 bidirectional references (140+ interconnection points)
-- Operations Architecture: 10 bidirectional references (72+ interconnection points)
-- Data Governance Architecture: 10 bidirectional references (66+ interconnection points)
-- Analytics & Business Intelligence: 10 bidirectional references (59+ interconnection points)
+- Workflow Engine: 16 bidirectional references (80+ interconnection points)
+- Business Rules: 16 bidirectional references (80+ interconnection points)
+- Security Architecture: 16 bidirectional references (87+ interconnection points)
+- AI Architecture: 16 bidirectional references (86+ interconnection points)
+- Integration Architecture: 16 bidirectional references (88+ interconnection points)
+- Infrastructure Architecture: 16 bidirectional references (92+ interconnection points)
+- DevSecOps Architecture: 16 bidirectional references (91+ interconnection points)
+- Testing Architecture: 16 bidirectional references (147+ interconnection points)
+- Operations Architecture: 16 bidirectional references (80+ interconnection points)
+- Data Governance Architecture: 16 bidirectional references (73+ interconnection points)
+- Analytics & Business Intelligence: 16 bidirectional references (66+ interconnection points)
+- Enterprise IAM Architecture: 16 bidirectional references (59+ interconnection points)
 
 **Key Architectural Hubs** (highest cross-reference density):
-1. **Testing Architecture** — 140+ interconnection points (cross-cutting quality assurance)
-2. **Infrastructure Architecture** — 84+ interconnection points (foundation layer)
-3. **DevSecOps Architecture** — 83+ interconnection points (delivery orchestration)
-4. **AI Architecture** — 79+ interconnection points (intelligent systems)
-5. **Security Architecture** — 79+ interconnection points (cross-cutting security)
-6. **Integration Architecture** — 80+ interconnection points (service integration)
-7. **Data Governance Architecture** — 66+ interconnection points (data management)
-8. **Analytics & Business Intelligence** — 59+ interconnection points (analytics and insights)
-9. **Operations Architecture** — 72+ interconnection points (service management)
+1. **Testing Architecture** — 147+ interconnection points (cross-cutting quality assurance)
+2. **Infrastructure Architecture** — 92+ interconnection points (foundation layer)
+3. **DevSecOps Architecture** — 91+ interconnection points (delivery orchestration)
+4. **Integration Architecture** — 88+ interconnection points (service integration)
+5. **AI Architecture** — 86+ interconnection points (intelligent systems)
+6. **Security Architecture** — 87+ interconnection points (cross-cutting security)
+7. **Operations Architecture** — 80+ interconnection points (service management)
+8. **Workflow Engine** — 80+ interconnection points (process orchestration)
+9. **Business Rules Engine** — 80+ interconnection points (business logic)
+10. **Data Governance Architecture** — 73+ interconnection points (data management)
+11. **Analytics & Business Intelligence** — 66+ interconnection points (analytics and insights)
+12. **Enterprise IAM Architecture** — 59+ interconnection points (identity and access)
 
-**Analytics & BI Cross-References by Specification:**
-- Analytics & BI ↔ Workflow Engine: 7 points
-- Analytics & BI ↔ Business Rules Engine: 7 points
-- Analytics & BI ↔ Security Architecture: 7 points
-- Analytics & BI ↔ AI Architecture: 8 points
-- Analytics & BI ↔ Integration Architecture: 7 points
-- Analytics & BI ↔ Infrastructure Architecture: 8 points
-- Analytics & BI ↔ DevSecOps Architecture: 8 points
-- Analytics & BI ↔ Testing Architecture: 7 points
-- Analytics & BI ↔ Operations Architecture: 7 points
-- Analytics & BI ↔ Data Governance Architecture: 7 points
+**IAM Architecture Cross-References by Specification:**
+- IAM ↔ Security Architecture: 8 points
+- IAM ↔ Workflow Engine: 8 points
+- IAM ↔ Business Rules Engine: 7 points
+- IAM ↔ Integration Architecture: 8 points
+- IAM ↔ Infrastructure Architecture: 8 points
+- IAM ↔ DevSecOps Architecture: 8 points
+- IAM ↔ Testing Architecture: 7 points
+- IAM ↔ Operations Architecture: 8 points
+- IAM ↔ Data Governance Architecture: 7 points
+- IAM ↔ Analytics & Business Intelligence: 7 points
+- IAM ↔ AI Architecture: 7 points
 
 **Architectural Layers Validated:**
 - ✓ Business requirements (PRD)
@@ -1285,6 +1559,7 @@ Complete bidirectional cross-reference mapping across all 16 enterprise architec
 - ✓ Business logic layer (Business Rules Engine)
 - ✓ Application layer (AI + Integration Architectures)
 - ✓ Security layer (Security Architecture)
+- ✓ Identity & Access layer (Enterprise IAM Architecture)
 - ✓ Infrastructure layer (Infrastructure Architecture)
 - ✓ Delivery layer (DevSecOps Architecture)
 - ✓ Quality assurance layer (Testing Architecture — cross-cutting)

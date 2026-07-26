@@ -231,6 +231,17 @@ The AI Customer Onboarding Platform is built on a comprehensive 16-specification
 
 **Cross-References:** All 15 specifications (analytics integration throughout)
 
+### Specification 12: Enterprise Identity & Access Management (IAM) Architecture (Parts 1–2)
+**Purpose:** Deliver secure, scalable, compliant identity lifecycle management, authentication, and authorization across all organizational systems and applications.
+
+**Key Domains:**
+- IAM Foundation (vision, objectives, framework, governance, compliance)
+- Identity Lifecycle Management (provisioning, modification, deprovisioning, synchronization)
+- Authentication Architecture (verification, services, passwordless, adaptive authentication)
+- Authorization Framework (RBAC, ABAC, least privilege, segregation of duties, policy-based access)
+
+**Cross-References:** All 16 specifications (identity and access integration throughout)
+
 ## Document Relationship Matrix
 
 | Document | Purpose | Owner | Status |
@@ -251,10 +262,11 @@ The AI Customer Onboarding Platform is built on a comprehensive 16-specification
 | Operations Architecture Specification (1–6) | Service management | Operations Team | ✓ |
 | Data Governance Architecture Specification (1–6) | Data governance | Data Management Team | ✓ |
 | Analytics & Business Intelligence Architecture Specification (1–6) | Analytics and BI | Analytics Team | ✓ |
+| Enterprise Identity & Access Management (IAM) Architecture Specification (1–2) | Identity and access management | IAM Team | ✓ |
 
 ## Searchable Topic Index
 
-See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 16 specifications with 50+ topics per specification and 1320+ total indexed topics.
+See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 17 specifications with 50+ topics per specification and 1380+ total indexed topics.
 
 See [Testing Topic Index](./testing-topic-index.md) for detailed testing topics across all 10 parts of Testing Architecture Specification.
 
@@ -264,9 +276,11 @@ See [Data Governance Topic Index](./data-governance-topic-index.md) for detailed
 
 See [Analytics & Business Intelligence Topic Index](./analytics-bi-topic-index.md) for detailed analytics and BI topics across all 6 parts of Analytics & BI Architecture Specification.
 
+See [IAM Topic Index](./iam-topic-index.md) for detailed IAM topics across all 2 parts of Enterprise IAM Architecture Specification.
+
 ## Cross-Reference Matrix
 
-See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 16 specifications with 334+ total interconnection points.
+See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 17 specifications with 350+ total interconnection points.
 
 ## Enterprise Implementation Guidance
 
@@ -291,13 +305,14 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] Operations Architecture Specification (Parts 1–6) — Complete
 - [x] Data Governance Architecture Specification (Parts 1–6) — Complete
 - [x] Analytics & Business Intelligence Architecture Specification (Parts 1–6) — Complete
+- [x] Enterprise Identity & Access Management (IAM) Architecture Specification (Parts 1–2) — Complete
 
-All 16 specifications complete with 334+ bidirectional cross-references (170+ parts total).
+All 17 specifications complete with 350+ bidirectional cross-references (175+ parts total).
 
 ## Related Documentation
 
 - [Architecture (Technical Components)](./architecture.md) — Component overview and data flow
-- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 1330+ topics
+- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 1380+ topics
 - [Testing Architecture](./testing-architecture.md) — Testing specification overview
 - [Testing Topic Index](./testing-topic-index.md) — Detailed testing topics (200+)
 - [Operations Architecture](./operations-architecture.md) — Operations specification overview

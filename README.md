@@ -41,18 +41,19 @@ service without Docker.
 
 ### Quick Links
 
-- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 16-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing, Operations, Data Governance, Analytics & BI)
+- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 17-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing, Operations, Data Governance, Analytics & BI, IAM)
 - **[Technical Architecture](docs/architecture.md)** — Component diagrams and data flow
 - **[Testing Architecture](docs/testing-architecture.md)** — Quality assurance framework
 - **[Operations Architecture](docs/operations-architecture.md)** — Service management framework
 - **[Data Governance Architecture](docs/data-governance-architecture.md)** — Data governance framework
 - **[Analytics & Business Intelligence Architecture](docs/analytics-bi-architecture.md)** — Analytics and BI framework
-- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1330+ topics
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1380+ topics
 - **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (200+ across 10 parts)
 - **[Operations Topic Index](docs/operations-topic-index.md)** — Operations topics (60+ across 6 parts)
 - **[Data Governance Topic Index](docs/data-governance-topic-index.md)** — Data governance topics (80+ across 6 parts)
 - **[Analytics & Business Intelligence Topic Index](docs/analytics-bi-topic-index.md)** — Analytics topics (80+ across 6 parts)
-- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (334+ interconnections)
+- **[IAM Topic Index](docs/iam-topic-index.md)** — Identity and access management topics (50+ across 2 parts)
+- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (350+ interconnections)
 - **[API Reference](docs/api-reference.md)** — REST API specification
 - **[Getting Started](docs/getting-started.md)** — Developer quick-start guide
 

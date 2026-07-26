@@ -1,9 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1330+ architectural topics across all 16 enterprise architecture specifications.
+Comprehensive index of 1380+ architectural topics across all 17 enterprise architecture specifications.
 
 ## Quick Navigation
 
+- [IAM Architecture Topics](#iam-architecture-topics) — 50+ topics across Parts 1–2
 - [Analytics & Business Intelligence Topics](#analytics--business-intelligence-topics) — 80+ topics across Parts 1–6
 - [Data Governance Architecture Topics](#data-governance-architecture-topics) — 80+ topics across Parts 1–6
 - [Testing Architecture Topics](#testing-architecture-topics) — 200+ topics across Parts 1–10
@@ -15,6 +16,166 @@ Comprehensive index of 1330+ architectural topics across all 16 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Enterprise Identity & Access Management (IAM) Architecture Topics
+
+### IAM Foundation (Part 1)
+- IAM Vision
+- IAM Objectives
+- Core IAM Principles
+- Enterprise IAM Framework
+- Identity Governance
+- Compliance & Regulatory
+- Security Framework
+- Business Value
+
+### Identity Lifecycle & Authentication (Part 2)
+- Identity Lifecycle Management
+- Identity Lifecycle Phases
+- Identity Creation
+- Identity Activation
+- Identity Modification
+- Identity Suspension
+- Identity Deprovisioning
+- Identity Archive
+- Provisioning Architecture
+- User Provisioning
+- Account Provisioning
+- Role Assignment
+- Access Provisioning
+- System Integration
+- Approval Workflows
+- Just-in-Time Provisioning
+- Attribute Updates
+- Role Changes
+- Responsibility Changes
+- Access Changes
+- Profile Updates
+- Name Changes
+- Organizational Moves
+- Manager Changes
+- Deprovisioning Process
+- Access Revocation
+- Account Suspension
+- Data Retention
+- System Cleanup
+- Audit Trail
+- Offboarding Workflow
+- Emergency Deprovisioning
+- Directory Synchronization
+- Attribute Synchronization
+- Multi-System Consistency
+- Conflict Resolution
+- Schedule Management
+- Error Handling
+- Change Tracking
+- Sync Validation
+- Authentication Vision
+- Authentication Framework
+- Authentication Methods
+- Authentication Flow
+- Authentication Protocols
+- Service Architecture
+- Token Management
+- Session Management
+- Verification Methods
+- Password Authentication
+- Multi-Factor Authentication (MFA)
+- Biometric Authentication
+- Hardware Tokens
+- SMS Verification
+- Email Verification
+- Knowledge-Based Verification
+- Authentication Servers
+- Federation Services
+- Directory Services
+- API Authentication
+- Web Authentication
+- Mobile Authentication
+- Desktop Authentication
+- Hybrid Identity
+- Passwordless Strategy
+- Biometric Methods
+- Hardware Keys
+- Push Notifications
+- QR Codes
+- Windows Hello
+- Phone Sign-In
+- Risk-Based Authentication
+- Adaptive Strategy
+- Risk Assessment
+- Context Evaluation
+- Step-Up Authentication
+- Anomaly Detection
+- Machine Learning
+- Continuous Verification
+- User Behavior Analytics
+- Authorization Framework
+- Access Control Model
+- Policy Engine
+- Authorization Flow
+- Delegation
+- Service Authorization
+- Resource Authorization
+- Audit Logging
+- Role Definition
+- Role Hierarchy
+- Role Assignment
+- Permission Mapping
+- Role Review
+- Role Lifecycle
+- Conflict Detection
+- Role Inheritance
+- Attribute Definition
+- Attribute Mapping
+- Policy Evaluation
+- Dynamic Policies
+- Environmental Attributes
+- Temporal Attributes
+- Location-Based Access
+- Device Attributes
+- Least Privilege Principle
+- Access Minimization
+- Just-Enough Access
+- Privilege Escalation Control
+- Temporary Elevation
+- Session-Based Access
+- Task-Based Access
+- Privilege Monitoring
+- Separation Strategy
+- Conflict Rules
+- Preventive Controls
+- Detective Controls
+- Compliance Mapping
+- Review Procedures
+- Exception Handling
+- Remediation Workflow
+- Policy Framework
+- Policy Language
+- Policy Versioning
+- Policy Distribution
+- Policy Enforcement
+- Policy Review
+- Exception Policies
+- Emergency Access Policies
+- Governance Framework
+- IAM Policies
+- Compliance Governance
+- Access Reviews
+- Certification
+- Audit Procedures
+- Incident Response
+- Continuous Improvement
+- Identity Infrastructure
+- Directory Services
+- Authentication Services
+- Authorization Engines
+- Monitoring Systems
+- Audit Logging
+- Disaster Recovery
+- User Training
 
 ---
 
