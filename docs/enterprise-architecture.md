@@ -1,10 +1,10 @@
 # Enterprise Architecture — AI Customer Onboarding Platform
 
-Complete 15-specification enterprise architecture documentation with full cross-referencing and traceability.
+Complete 16-specification enterprise architecture documentation with full cross-referencing and traceability.
 
 ## Architecture Overview
 
-The AI Customer Onboarding Platform is built on a comprehensive 15-specification enterprise architecture framework spanning business requirements, process automation, business logic, applications, infrastructure, security, delivery, operations, and data governance.
+The AI Customer Onboarding Platform is built on a comprehensive 16-specification enterprise architecture framework spanning business requirements, process automation, business logic, applications, infrastructure, security, delivery, operations, data governance, and analytics.
 
 ### Enterprise Architecture Layers
 
@@ -39,7 +39,7 @@ The AI Customer Onboarding Platform is built on a comprehensive 15-specification
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 15 Enterprise Architecture Specifications
+## 16 Enterprise Architecture Specifications
 
 ### Specification 1: Workflow Engine (Parts 1–10)
 **Purpose:** Orchestrate multi-step customer onboarding flows with state machines, human tasks, approvals, and SLA management.
@@ -214,6 +214,20 @@ The AI Customer Onboarding Platform is built on a comprehensive 15-specification
 
 **Cross-References:** All 9 specifications (data governance integration throughout)
 
+### Specification 11: Analytics & Business Intelligence Architecture (Parts 1–5)
+**Purpose:** Deliver trusted, scalable, AI-assisted analytics and business intelligence for data-driven decision-making across all organizational levels.
+
+**Key Domains:**
+
+**Parts 1–5: Analytics Excellence**
+- Analytics Foundation (vision, objectives, framework, principles)
+- Reporting & BI Governance (reporting, dashboards, KPIs, self-service, BI governance)
+- Advanced Analytics (visualization, semantic layer, OLAP, predictive analytics, AI-driven analytics)
+- Data Platform (data warehouse, data marts, real-time analytics, streaming, embedded analytics)
+- Governance & Readiness (governance policies, KPIs, audit, enterprise readiness)
+
+**Cross-References:** All 10 specifications (analytics integration throughout)
+
 ## Document Relationship Matrix
 
 | Document | Purpose | Owner | Status |
@@ -233,10 +247,11 @@ The AI Customer Onboarding Platform is built on a comprehensive 15-specification
 | Testing Architecture Specification (1–10) | Quality assurance | QA/Testing Team | ✓ |
 | Operations Architecture Specification (1–6) | Service management | Operations Team | ✓ |
 | Data Governance Architecture Specification (1–6) | Data governance | Data Management Team | ✓ |
+| Analytics & Business Intelligence Architecture Specification (1–5) | Analytics and BI | Analytics Team | ✓ |
 
 ## Searchable Topic Index
 
-See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 15 specifications with 50+ topics per specification and 1310+ total indexed topics.
+See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 16 specifications with 50+ topics per specification and 1320+ total indexed topics.
 
 See [Testing Topic Index](./testing-topic-index.md) for detailed testing topics across all 10 parts of Testing Architecture Specification.
 
@@ -244,9 +259,11 @@ See [Operations Topic Index](./operations-topic-index.md) for detailed operation
 
 See [Data Governance Topic Index](./data-governance-topic-index.md) for detailed data governance topics across all 6 parts of Data Governance Architecture Specification.
 
+See [Analytics & Business Intelligence Topic Index](./analytics-bi-topic-index.md) for detailed analytics and BI topics across all 5 parts of Analytics & BI Architecture Specification.
+
 ## Cross-Reference Matrix
 
-See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 15 specifications with 275+ total interconnection points.
+See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 16 specifications with 334+ total interconnection points.
 
 ## Enterprise Implementation Guidance
 
@@ -270,8 +287,9 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] Testing Architecture Specification (Parts 1–10) — Complete
 - [x] Operations Architecture Specification (Parts 1–6) — Complete
 - [x] Data Governance Architecture Specification (Parts 1–6) — Complete
+- [x] Analytics & Business Intelligence Architecture Specification (Parts 1–5) — Complete
 
-All 15 specifications complete with 275+ bidirectional cross-references (160+ parts total).
+All 16 specifications complete with 334+ bidirectional cross-references (165+ parts total).
 
 ## Related Documentation
 
@@ -283,6 +301,8 @@ All 15 specifications complete with 275+ bidirectional cross-references (160+ pa
 - [Operations Topic Index](./operations-topic-index.md) — Detailed operations topics (60+)
 - [Data Governance Architecture](./data-governance-architecture.md) — Data governance specification overview
 - [Data Governance Topic Index](./data-governance-topic-index.md) — Detailed data governance topics (80+)
-- [Cross-Reference Matrix (Specification Links)](./cross-reference-matrix.md) — Bidirectional specification mapping (275+)
+- [Analytics & Business Intelligence Architecture](./analytics-bi-architecture.md) — Analytics and BI specification overview
+- [Analytics & Business Intelligence Topic Index](./analytics-bi-topic-index.md) — Detailed analytics topics (75+)
+- [Cross-Reference Matrix (Specification Links)](./cross-reference-matrix.md) — Bidirectional specification mapping (334+)
 - [API Reference](./api-reference.md) — REST API specification
 - [Getting Started](./getting-started.md) — Developer quick-start guide

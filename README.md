@@ -41,16 +41,18 @@ service without Docker.
 
 ### Quick Links
 
-- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 15-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing, Operations, Data Governance)
+- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 16-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing, Operations, Data Governance, Analytics & BI)
 - **[Technical Architecture](docs/architecture.md)** — Component diagrams and data flow
 - **[Testing Architecture](docs/testing-architecture.md)** — Quality assurance framework
 - **[Operations Architecture](docs/operations-architecture.md)** — Service management framework
 - **[Data Governance Architecture](docs/data-governance-architecture.md)** — Data governance framework
-- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1310+ topics
+- **[Analytics & Business Intelligence Architecture](docs/analytics-bi-architecture.md)** — Analytics and BI framework
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1320+ topics
 - **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (200+ across 10 parts)
 - **[Operations Topic Index](docs/operations-topic-index.md)** — Operations topics (60+ across 6 parts)
 - **[Data Governance Topic Index](docs/data-governance-topic-index.md)** — Data governance topics (80+ across 6 parts)
-- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (275+ interconnections)
+- **[Analytics & Business Intelligence Topic Index](docs/analytics-bi-topic-index.md)** — Analytics topics (75+ across 5 parts)
+- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (334+ interconnections)
 - **[API Reference](docs/api-reference.md)** — REST API specification
 - **[Getting Started](docs/getting-started.md)** — Developer quick-start guide
 

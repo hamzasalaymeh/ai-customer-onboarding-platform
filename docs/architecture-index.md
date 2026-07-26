@@ -1,9 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1310+ architectural topics across all 15 enterprise architecture specifications.
+Comprehensive index of 1320+ architectural topics across all 16 enterprise architecture specifications.
 
 ## Quick Navigation
 
+- [Analytics & Business Intelligence Topics](#analytics--business-intelligence-topics) — 75+ topics across Parts 1–5
 - [Data Governance Architecture Topics](#data-governance-architecture-topics) — 80+ topics across Parts 1–6
 - [Testing Architecture Topics](#testing-architecture-topics) — 200+ topics across Parts 1–10
 - [Operations Architecture Topics](#operations-architecture-topics) — 60+ topics across Parts 1–6
@@ -14,6 +15,183 @@ Comprehensive index of 1310+ architectural topics across all 15 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Analytics & Business Intelligence Topics
+
+### Analytics Foundation (Part 1)
+- Analytics Vision
+- Analytics Objectives
+- Core Analytics Principles
+- Explainability Principle
+- Enterprise Analytics Framework
+- Analytics Roadmap
+- Business Value
+- Analytics Maturity
+
+### Reporting & BI Governance (Part 2)
+- Reporting Vision
+- Report Types
+- Reporting Standards
+- Centralized Reporting
+- Report Versioning
+- Report Lifecycle
+- Report Governance
+- Regulatory Reporting
+- Dashboard Vision
+- Dashboard Types
+- Real-Time Metrics
+- Drill-Down Capabilities
+- Role-Based Personalization
+- Responsive Design
+- Dashboard Performance
+- Accessibility Standards
+- KPI Framework
+- KPI Definition
+- Calculation Methodology
+- KPI Ownership
+- KPI Thresholds
+- KPI Scorecards
+- KPI Targets
+- KPI Monitoring
+- Leading Indicators
+- Lagging Indicators
+- Self-Service Capability
+- Governed Self-Service
+- Self-Service Security
+- Self-Service Data Governance
+- User Enablement
+- Query Tools
+- Report Sharing
+- BI Governance Framework
+- Semantic Models Governance
+- Report Lifecycle Governance
+- Data Certification
+- Approval Workflows
+- Access Governance
+- Data Lineage
+- BI Policies
+
+### Advanced Analytics & Visualization (Part 3)
+- Visualization Principles
+- Chart Types
+- Color Standards
+- Accessibility
+- Responsiveness
+- Consistency
+- Dashboard Layout
+- Interactive Elements
+- Semantic Layer
+- Business Definitions
+- Metrics
+- Dimensions
+- Hierarchies
+- Reusable Models
+- Semantic Governance
+- Model Versioning
+- Multidimensional Analysis
+- Cubes
+- Fact Tables
+- Dimension Tables
+- Aggregations
+- Performance Optimization
+- Schema Design
+- Fact Design
+- Predictive Models
+- Forecasting
+- Trend Analysis
+- Anomaly Detection
+- Statistical Models
+- Machine Learning Models
+- Model Evaluation
+- Model Deployment
+- Natural Language Queries
+- Automated Insights
+- Recommendation Engines
+- Intelligent Forecasting
+- Generative AI
+- AI Governance
+- Explainability
+- Responsible AI
+
+### Data Platform (Part 4)
+- Data Warehouse Design
+- Data Ingestion
+- ETL/ELT Pipelines
+- Dimensional Modeling
+- Storage Optimization
+- Data Warehouse Governance
+- Historical Data
+- Analytical Workloads
+- Data Mart Architecture
+- Finance Data Mart
+- Sales Data Mart
+- Operations Data Mart
+- HR Data Mart
+- Customer Service Data Mart
+- Domain-Specific Marts
+- Mart Consistency
+- Real-Time Capability
+- Live Operational Events
+- Real-Time KPIs
+- Alerts
+- Business Transactions
+- Operational Decision Support
+- Latency Requirements
+- Performance Requirements
+- Streaming Data
+- Event Ingestion
+- Event Correlation
+- Anomaly Detection
+- Near Real-Time Analytics
+- Event Processing
+- Stream Aggregation
+- Backpressure
+- Embedded Capability
+- Application Integration
+- Dashboard Embedding
+- Report Embedding
+- KPI Embedding
+- Insight Embedding
+- Embedded Analytics UX
+- Embedded Analytics Security
+
+### Governance & Enterprise Readiness (Part 5)
+- Analytics Governance Framework
+- Analytics Policies
+- Reporting Standards
+- Semantic Governance
+- KPI Ownership
+- Dashboard Lifecycle
+- Approval Workflows
+- Access Governance
+- Analytics Adoption
+- Dashboard Utilization
+- Report Performance
+- Data Freshness
+- Query Response Times
+- Business Value
+- User Satisfaction
+- Decision Effectiveness
+- Audit Procedures
+- Reporting Accuracy
+- KPI Calculation
+- Access Validation
+- Data Lineage Audit
+- Governance Compliance
+- Model Integrity
+- Standards Compliance
+- Reporting Services
+- Dashboards
+- Analytics Infrastructure
+- Governance
+- Security
+- Performance
+- Documentation
+- Monitoring
+- User Enablement
+- Executive Approval
 
 ---
 
@@ -1256,9 +1434,9 @@ Comprehensive index of 1310+ architectural topics across all 15 enterprise archi
 
 ## Summary
 
-**Total Specifications:** 15
-**Total Topics:** 1310+
-**Bidirectional Cross-References:** 275+
+**Total Specifications:** 16
+**Total Topics:** 1320+
+**Bidirectional Cross-References:** 334+
 **Topic Coverage:** Comprehensive enterprise architecture framework
 
 See [Enterprise Architecture Overview](./enterprise-architecture.md) for specification summaries and [Cross-Reference Matrix](./cross-reference-matrix.md) for detailed cross-reference mapping.
