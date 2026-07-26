@@ -1,10 +1,10 @@
 # Enterprise Architecture — AI Customer Onboarding Platform
 
-Complete 14-specification enterprise architecture documentation with full cross-referencing and traceability.
+Complete 15-specification enterprise architecture documentation with full cross-referencing and traceability.
 
 ## Architecture Overview
 
-The AI Customer Onboarding Platform is built on a comprehensive 14-specification enterprise architecture framework spanning business requirements, process automation, business logic, applications, infrastructure, security, delivery, and operations.
+The AI Customer Onboarding Platform is built on a comprehensive 15-specification enterprise architecture framework spanning business requirements, process automation, business logic, applications, infrastructure, security, delivery, operations, and data governance.
 
 ### Enterprise Architecture Layers
 
@@ -39,7 +39,7 @@ The AI Customer Onboarding Platform is built on a comprehensive 14-specification
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 14 Enterprise Architecture Specifications
+## 15 Enterprise Architecture Specifications
 
 ### Specification 1: Workflow Engine (Parts 1–10)
 **Purpose:** Orchestrate multi-step customer onboarding flows with state machines, human tasks, approvals, and SLA management.
@@ -197,6 +197,20 @@ The AI Customer Onboarding Platform is built on a comprehensive 14-specification
 
 **Cross-References:** All 8 specifications (operational integration throughout)
 
+### Specification 10: Data Governance Architecture (Parts 1–5)
+**Purpose:** Establish enterprise-wide data governance framework ensuring data quality, compliance, security, privacy, and business value optimization through structured ownership, stewardship, and lifecycle management.
+
+**Key Domains:**
+
+**Parts 1–5: Data Governance Excellence**
+- Governance Foundation (vision, objectives, organization, responsibilities)
+- Data Ownership & Stewardship (ownership, stewardship, classification, lifecycle, quality)
+- Data Management (master data, metadata, lineage, reference data, catalog)
+- Privacy & Security Governance (privacy, security, access control, retention, compliance)
+- Governance Policies (policies, KPIs, audit, enterprise readiness, continuous improvement)
+
+**Cross-References:** All 9 specifications (data governance integration throughout)
+
 ## Document Relationship Matrix
 
 | Document | Purpose | Owner | Status |
@@ -215,18 +229,21 @@ The AI Customer Onboarding Platform is built on a comprehensive 14-specification
 | DevSecOps Architecture Specification (1–10) | Delivery automation | DevOps Team | ✓ |
 | Testing Architecture Specification (1–10) | Quality assurance | QA/Testing Team | ✓ |
 | Operations Architecture Specification (1–6) | Service management | Operations Team | ✓ |
+| Data Governance Architecture Specification (1–5) | Data governance | Data Management Team | ✓ |
 
 ## Searchable Topic Index
 
-See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 14 specifications with 50+ topics per specification and 1200+ total indexed topics.
+See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 15 specifications with 50+ topics per specification and 1300+ total indexed topics.
 
 See [Testing Topic Index](./testing-topic-index.md) for detailed testing topics across all 10 parts of Testing Architecture Specification.
 
-See [Operations Topic Index](./operations-topic-index.md) for detailed operations topics across all 5 parts of Operations Architecture Specification.
+See [Operations Topic Index](./operations-topic-index.md) for detailed operations topics across all 6 parts of Operations Architecture Specification.
+
+See [Data Governance Topic Index](./data-governance-topic-index.md) for detailed data governance topics across all 5 parts of Data Governance Architecture Specification.
 
 ## Cross-Reference Matrix
 
-See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 14 specifications with 216+ total interconnection points.
+See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 15 specifications with 275+ total interconnection points.
 
 ## Enterprise Implementation Guidance
 
@@ -249,17 +266,20 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] DevSecOps Architecture Specification (Parts 1–10) — Complete
 - [x] Testing Architecture Specification (Parts 1–10) — Complete
 - [x] Operations Architecture Specification (Parts 1–6) — Complete
+- [x] Data Governance Architecture Specification (Parts 1–5) — Complete
 
-All 14 specifications complete with 216+ bidirectional cross-references (150+ parts total).
+All 15 specifications complete with 275+ bidirectional cross-references (155+ parts total).
 
 ## Related Documentation
 
 - [Architecture (Technical Components)](./architecture.md) — Component overview and data flow
-- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 1200+ topics
+- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 1300+ topics
 - [Testing Architecture](./testing-architecture.md) — Testing specification overview
 - [Testing Topic Index](./testing-topic-index.md) — Detailed testing topics (200+)
 - [Operations Architecture](./operations-architecture.md) — Operations specification overview
-- [Operations Topic Index](./operations-topic-index.md) — Detailed operations topics (50+)
-- [Cross-Reference Matrix (Specification Links)](./cross-reference-matrix.md) — Bidirectional specification mapping (216+)
+- [Operations Topic Index](./operations-topic-index.md) — Detailed operations topics (60+)
+- [Data Governance Architecture](./data-governance-architecture.md) — Data governance specification overview
+- [Data Governance Topic Index](./data-governance-topic-index.md) — Detailed data governance topics (70+)
+- [Cross-Reference Matrix (Specification Links)](./cross-reference-matrix.md) — Bidirectional specification mapping (275+)
 - [API Reference](./api-reference.md) — REST API specification
 - [Getting Started](./getting-started.md) — Developer quick-start guide

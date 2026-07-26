@@ -1,9 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1200+ architectural topics across all 14 enterprise architecture specifications.
+Comprehensive index of 1300+ architectural topics across all 15 enterprise architecture specifications.
 
 ## Quick Navigation
 
+- [Data Governance Architecture Topics](#data-governance-architecture-topics) — 70+ topics across Parts 1–5
 - [Testing Architecture Topics](#testing-architecture-topics) — 200+ topics across Parts 1–10
 - [Operations Architecture Topics](#operations-architecture-topics) — 60+ topics across Parts 1–6
 - [DevSecOps Architecture Topics](#devsecops-architecture-topics) — 50+ topics across Parts 1–10
@@ -13,6 +14,194 @@ Comprehensive index of 1200+ architectural topics across all 14 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Data Governance Architecture Topics
+
+### Governance Foundation (Part 1)
+- Data Governance Vision
+- Data Governance Objectives
+- Core Governance Principles
+- Privacy Principles
+- Security Principles
+- Lifecycle Management Principle
+- Continuous Improvement Principle
+- Governance Maturity Model
+- Executive Sponsorship
+- Data Governance Council
+- Chief Data Officer Role
+- Data Owner Roles
+- Data Steward Roles
+- Business Stewards
+- Technical Stewards
+- Compliance Officers
+- Privacy Officers
+
+### Data Ownership & Stewardship (Part 2)
+- Data Ownership Framework
+- Data Owner Accountability
+- Data Owner Authority
+- Ownership Responsibilities
+- Business Value Accountability
+- Ownership Assignment Process
+- Ownership Transitions
+- Ownership Documentation
+- Data Stewardship Framework
+- Steward Responsibilities
+- Business Stewards
+- Technical Stewards
+- Steward Collaboration
+- Quality Issue Resolution
+- Metadata Maintenance
+- Policy Enforcement
+- Classification Framework
+- Classification Levels
+- Handling Requirements
+- Retention Rules
+- Access Controls
+- Marking Requirements
+- Classification Process
+- Re-classification Procedures
+- Data Lifecycle Phases
+- Data Creation Governance
+- Data Collection Policies
+- Data Storage Management
+- Data Usage Governance
+- Data Sharing Procedures
+- Data Archival
+- Data Disposal
+- Retention Schedules
+- Legal Holds
+- Quality Dimensions
+- Quality Metrics
+- Quality Monitoring
+- Quality Controls
+- Data Profiling
+- Quality Improvement
+- Issue Management
+- Quality Dashboards
+
+### Data Management (Part 3)
+- Master Data Management Framework
+- Master Data Domains
+- Golden Records
+- Data Stewardship Domains
+- Synchronization Rules
+- Consistency Standards
+- Master Data Registry
+- Hierarchy Management
+- Business Metadata
+- Technical Metadata
+- Operational Metadata
+- Metadata Standards
+- Metadata Capture
+- Metadata Maintenance
+- Metadata Governance
+- Metadata Discoverability
+- Source Systems
+- Data Transformations
+- Data Pipelines
+- Downstream Consumers
+- Lineage Traceability
+- Impact Analysis
+- Regulatory Compliance
+- Audit Trail
+- Reference Data Types
+- Reference Standards
+- Reference Governance
+- Change Management
+- Versioning
+- Distribution
+- Reference Consistency
+- Catalog Structure
+- Data Asset Registry
+- Metadata Repository
+- Access Policies
+- Business Glossary
+- Data Discovery
+- Lineage Visualization
+- Impact Assessment
+
+### Privacy & Security Governance (Part 4)
+- Privacy Principles
+- Consent Management
+- Privacy Impact Assessment
+- Anonymization
+- Pseudonymization
+- Data Portability
+- Privacy Policies
+- Privacy Rights
+- Breach Notification
+- Security Classification
+- Encryption Standards
+- Key Management
+- Access Controls
+- Network Security
+- Application Security
+- Database Security
+- Secure Handling
+- Compliance Framework
+- Regulatory Requirements
+- Compliance Monitoring
+- Compliance Reporting
+- Audit Readiness
+- Control Mapping
+- Compliance Gaps
+- Industry Standards
+- Retention Schedules
+- Legal Holds
+- Archival Procedures
+- Archive Storage
+- Archive Access
+- Disposal Procedures
+- Destruction Verification
+- Compliance Verification
+- Least Privilege Principle
+- Role-Based Access Control
+- Attribute-Based Access Control
+- Segregation of Duties
+- Access Approval
+- Access Certification
+- Access Revocation
+- Monitoring and Auditing
+
+### Governance Policies & Enterprise Readiness (Part 5)
+- Policy Framework
+- Data Ownership Policies
+- Quality Policies
+- Security Policies
+- Privacy Policies
+- Access Policies
+- Retention Policies
+- Compliance Policies
+- Metadata Policies
+- Policy Enforcement
+- Policy Updates
+- Policy Communication
+- Data Quality Score
+- Policy Compliance Rate
+- Stewardship Effectiveness
+- Metadata Completeness
+- Master Data Accuracy
+- Access Review Completion
+- Regulatory Compliance Status
+- Issue Resolution Time
+- Governance Maturity
+- Stakeholder Satisfaction
+- Audit Scope
+- Audit Procedures
+- Policy Adherence
+- Control Validation
+- Quality Controls Audit
+- Security Controls Audit
+- Regulatory Compliance Audit
+- Stewardship Audit
+- Metadata Audit
+- Internal Audits
+- External Audits
+- Audit Reporting
+- Corrective Actions
 
 ---
 
@@ -1011,9 +1200,9 @@ Comprehensive index of 1200+ architectural topics across all 14 enterprise archi
 
 ## Summary
 
-**Total Specifications:** 14
-**Total Topics:** 1200+
-**Bidirectional Cross-References:** 216+
+**Total Specifications:** 15
+**Total Topics:** 1300+
+**Bidirectional Cross-References:** 275+
 **Topic Coverage:** Comprehensive enterprise architecture framework
 
 See [Enterprise Architecture Overview](./enterprise-architecture.md) for specification summaries and [Cross-Reference Matrix](./cross-reference-matrix.md) for detailed cross-reference mapping.
