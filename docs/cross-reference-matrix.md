@@ -1,21 +1,22 @@
 # Architecture Cross-Reference Matrix
 
-Complete bidirectional cross-reference mapping across all 12 enterprise architecture specifications.
+Complete bidirectional cross-reference mapping across all 14 enterprise architecture specifications.
 
 ## Summary Matrix — All Specifications
 
-| Spec | WE | BRE | SA | AIA | IA | INFRA | DSA | TA |
-|------|----|----|----|----|----|----|-----|-----|
-| **Workflow Engine** | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
-| **Business Rules** | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → |
-| **Security Arch** | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → |
-| **AI Arch** | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → |
-| **Integration Arch** | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → |
-| **Infrastructure Arch** | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → |
-| **DevSecOps Arch** | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → |
-| **Testing Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — |
+| Spec | WE | BRE | SA | AIA | IA | INFRA | DSA | TA | OA |
+|------|----|----|----|----|----|----|-----|-----|-----|
+| **Workflow Engine** | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
+| **Business Rules** | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → | ← → |
+| **Security Arch** | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → | ← → |
+| **AI Arch** | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → | ← → |
+| **Integration Arch** | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → | ← → |
+| **Infrastructure Arch** | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → | ← → |
+| **DevSecOps Arch** | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → | ← → |
+| **Testing Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — | ← → |
+| **Operations Arch** | ← → | ← → | ← → | ← → | ← → | ← → | ← → | ← → | — |
 
-**Legend:** ← → = Bidirectional cross-references | 110+ total interconnection points (49+ prior + 61+ new)
+**Legend:** ← → = Bidirectional cross-references | 216+ total interconnection points (158+ prior + 58+ new from Operations)
 
 ---
 
@@ -736,34 +737,192 @@ Complete bidirectional cross-reference mapping across all 12 enterprise architec
 
 **Interconnection Points:** 9
 
+### Testing Architecture ↔ Operations Architecture Specification
+
+**Testing → Operations:**
+- Test environment operations through test environment management
+- Test execution monitoring through operational monitoring
+- Test pipeline automation through operational automation
+- Test infrastructure scaling through capacity management
+- Quality metrics reporting through operational dashboards
+
+**Operations → Testing:**
+- Operational readiness gates drive testing requirements
+- Operational SLOs inform test targets
+- Production incidents trigger test analysis
+- Operational metrics feed test reporting
+- Support procedures include test troubleshooting
+
+**Interconnection Points:** 7
+
+---
+
+### Operations Architecture ↔ Workflow Engine
+
+**Operations → Workflow:**
+- Workflow execution monitoring and performance optimization
+- Workflow incident response and escalation
+- Workflow operational procedures and runbooks
+- Workflow SLA management and enforcement
+- Workflow capacity planning
+
+**Workflow → Operations:**
+- Workflow monitoring integrated with operational monitoring
+- Workflow alerts feed operational dashboards
+- Workflow performance metrics drive operational decisions
+- Workflow governance aligns with operational governance
+- Workflow incidents trigger operational response
+
+**Interconnection Points:** 7
+
+### Operations Architecture ↔ Business Rules Engine
+
+**Operations → Business Rules:**
+- Rules engine performance monitoring and optimization
+- Rules engine incident response procedures
+- Rules engine operational procedures and runbooks
+- Rules governance and compliance monitoring
+- Rules performance optimization
+
+**Business Rules → Operations:**
+- Rules monitoring integrated with operational dashboards
+- Rules performance metrics inform operational tuning
+- Rules governance aligns with operational policies
+- Rules deployment through operational procedures
+- Rules incidents trigger operational response
+
+**Interconnection Points:** 7
+
+### Operations Architecture ↔ Security Architecture
+
+**Operations → Security:**
+- Security incident management and response
+- Security monitoring and compliance reporting
+- Security operational procedures
+- Disaster recovery and business continuity
+- Security compliance validation
+
+**Security → Operations:**
+- Security policies define operational procedures
+- Security monitoring integrated with operational monitoring
+- Security incidents trigger operational response
+- Security compliance requirements drive operational governance
+- Security audits assess operational readiness
+
+**Interconnection Points:** 7
+
+### Operations Architecture ↔ AI Architecture
+
+**Operations → AI:**
+- AI model performance monitoring and optimization
+- AI model incident response procedures
+- AI operational procedures and runbooks
+- AI system observability and observability
+- AI capacity planning and resource management
+
+**AI → Operations:**
+- AI model deployment uses operational procedures
+- AI monitoring integrated with operational dashboards
+- AI performance metrics inform operational decisions
+- AI governance aligns with operational governance
+- AI incidents trigger operational response
+
+**Interconnection Points:** 7
+
+### Operations Architecture ↔ Integration Architecture
+
+**Operations → Integration:**
+- Service integration monitoring and health checks
+- API health checks and monitoring
+- Message queue monitoring and observability
+- Integration incident response procedures
+- Integration operational procedures and runbooks
+
+**Integration → Operations:**
+- Service integration deployment through operational procedures
+- Integration monitoring integrated with operational dashboards
+- Integration performance metrics inform operational decisions
+- Integration governance aligns with operational governance
+- Integration incidents trigger operational response
+
+**Interconnection Points:** 7
+
+### Operations Architecture ↔ Infrastructure Architecture
+
+**Operations → Infrastructure:**
+- Infrastructure monitoring and observability
+- Infrastructure incident response and failover
+- Infrastructure capacity planning and auto-scaling
+- Kubernetes operations and administration
+- Database operational procedures and maintenance
+
+**Infrastructure → Operations:**
+- Infrastructure provides operational platforms
+- Infrastructure monitoring feeds operational dashboards
+- Infrastructure metrics inform operational decisions
+- Infrastructure governance aligns with operational governance
+- Infrastructure incidents trigger operational response procedures
+
+**Interconnection Points:** 8
+
+### Operations Architecture ↔ DevSecOps Architecture
+
+**Operations → DevSecOps:**
+- Deployment monitoring and observability
+- Release operations and validation
+- CI/CD pipeline operations and automation
+- Operational automation and infrastructure-as-code
+- Production deployment readiness
+
+**DevSecOps → Operations:**
+- CI/CD deployments follow operational procedures
+- Release gates include operational readiness validation
+- Pipeline monitoring integrated with operational monitoring
+- Deployment automation reduces operational overhead
+- Pipeline governance aligns with operational governance
+
+**Interconnection Points:** 8
+
 ---
 
 ## Cross-Reference Summary Statistics
 
-**Total Specifications:** 8 architectural specifications (including Testing Architecture, now complete at 10 parts)
+**Total Specifications:** 9 architectural specifications (8 prior + Operations Architecture at 6 parts)
 
-**Total Bidirectional Cross-Reference Pairs:** 28 (7 prior + 7 new Testing pairs + 14 from updated matrix)
+**Total Bidirectional Cross-Reference Pairs:** 36 (28 prior + 8 new Operations pairs)
 
-**Total Interconnection Points:** 158+ (49+ prior + 61+ from Testing Parts 1–5 + 58+ new from Testing Parts 6–10)
+**Total Interconnection Points:** 216+ (158+ prior + 58+ new from Operations Architecture)
 
-**Total Documentation Parts:** 100+ (70 from 7 specs × 10 parts + 30 from 3 specs with Foundation parts)
+**Total Documentation Parts:** 150+ (140 from core specs + 10 additional parts from Operations)
 
 **Coverage Matrix:**
-- Workflow Engine: 7 bidirectional references (56+ interconnection points)
-- Business Rules: 7 bidirectional references (56+ interconnection points)
-- Security Architecture: 7 bidirectional references (58+ interconnection points)
-- AI Architecture: 7 bidirectional references (57+ interconnection points)
-- Integration Architecture: 7 bidirectional references (59+ interconnection points)
-- Infrastructure Architecture: 7 bidirectional references (61+ interconnection points)
-- DevSecOps Architecture: 7 bidirectional references (60+ interconnection points)
-- Testing Architecture: 7 bidirectional references (119+ interconnection points)
+- Workflow Engine: 8 bidirectional references (56+ interconnection points)
+- Business Rules: 8 bidirectional references (56+ interconnection points)
+- Security Architecture: 8 bidirectional references (65+ interconnection points)
+- AI Architecture: 8 bidirectional references (64+ interconnection points)
+- Integration Architecture: 8 bidirectional references (66+ interconnection points)
+- Infrastructure Architecture: 8 bidirectional references (68+ interconnection points)
+- DevSecOps Architecture: 8 bidirectional references (67+ interconnection points)
+- Testing Architecture: 8 bidirectional references (126+ interconnection points)
+- Operations Architecture: 8 bidirectional references (58+ interconnection points)
 
 **Key Architectural Hubs** (highest cross-reference density):
-1. **Testing Architecture** — 119+ interconnection points (cross-cutting quality assurance across all 7 specs × 10 parts + Parts 6-10)
-2. **Infrastructure Architecture** — 61+ interconnection points (foundation layer)
-3. **Integration Architecture** — 59+ interconnection points (service integration)
-4. **DevSecOps Architecture** — 60+ interconnection points (delivery orchestration)
-5. **Security Architecture** — 58+ interconnection points (cross-cutting security)
+1. **Testing Architecture** — 126+ interconnection points (cross-cutting quality assurance across all 8 specs)
+2. **Infrastructure Architecture** — 68+ interconnection points (foundation layer)
+3. **Integration Architecture** — 66+ interconnection points (service integration)
+4. **DevSecOps Architecture** — 67+ interconnection points (delivery orchestration)
+5. **Security Architecture** — 65+ interconnection points (cross-cutting security)
+6. **Operations Architecture** — 58+ interconnection points (service management)
+
+**Operational Cross-References by Specification:**
+- Operations ↔ Workflow Engine: 7 points
+- Operations ↔ Business Rules Engine: 7 points
+- Operations ↔ Security Architecture: 7 points
+- Operations ↔ AI Architecture: 7 points
+- Operations ↔ Integration Architecture: 7 points
+- Operations ↔ Infrastructure Architecture: 8 points
+- Operations ↔ DevSecOps Architecture: 8 points
+- Operations ↔ Testing Architecture: 7 points
 
 **Architectural Layers Validated:**
 - ✓ Business requirements (PRD)
@@ -774,5 +933,6 @@ Complete bidirectional cross-reference mapping across all 12 enterprise architec
 - ✓ Infrastructure layer (Infrastructure Architecture)
 - ✓ Delivery layer (DevSecOps Architecture)
 - ✓ Quality assurance layer (Testing Architecture — cross-cutting)
+- ✓ Operations layer (Operations Architecture — cross-cutting)
 
-All 13 specifications fully cross-referenced with bidirectional traceability (110+ interconnection points).
+All 14 specifications fully cross-referenced with bidirectional traceability (216+ interconnection points).

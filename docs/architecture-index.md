@@ -1,10 +1,11 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1000+ architectural topics across all 12 enterprise architecture specifications.
+Comprehensive index of 1200+ architectural topics across all 14 enterprise architecture specifications.
 
 ## Quick Navigation
 
-- [Testing Architecture Topics](#testing-architecture-topics) — 140+ topics across Parts 1–5
+- [Testing Architecture Topics](#testing-architecture-topics) — 200+ topics across Parts 1–10
+- [Operations Architecture Topics](#operations-architecture-topics) — 60+ topics across Parts 1–6
 - [DevSecOps Architecture Topics](#devsecops-architecture-topics) — 50+ topics across Parts 1–10
 - [Infrastructure Architecture Topics](#infrastructure-architecture-topics) — 50+ topics across Parts 1–10
 - [Security Architecture Topics](#security-architecture-topics) — 50+ topics across Parts 1–10
@@ -251,6 +252,108 @@ Comprehensive index of 1000+ architectural topics across all 12 enterprise archi
 - Governance Approval
 - Cross-Reference Matrix
 - Documentation Traceability
+
+---
+
+## Operations Architecture Topics
+
+### Enterprise Operations Vision & Strategy (Part 1)
+- Operations Vision
+- Operations Objectives
+- Operations Principles
+- Service Management Framework
+- Operational Model
+- Service Level Objectives (SLOs)
+- Service Level Agreements (SLAs)
+- Operations Metrics
+- Operational Maturity Model
+- Enterprise Operations Roadmap
+
+### Operational Governance (Part 2)
+- Incident Management
+- Incident Classification
+- Incident Response
+- Incident Escalation
+- Problem Management
+- Problem Analysis
+- Problem Resolution
+- Change Management
+- Change Approval
+- Change Implementation
+- Release Management
+- Release Planning
+- Release Deployment
+- Release Governance
+
+### Monitoring & Observability (Part 3)
+- Logging Architecture
+- Log Aggregation
+- Alert Definition
+- Alert Routing
+- Alert Escalation
+- Escalation Matrix
+- On-Call Management
+- Metrics Collection
+- Metric Aggregation
+- Performance Monitoring
+- APM (Application Performance Monitoring)
+- SLO Monitoring
+- Capacity Management
+- Capacity Planning
+- Resource Provisioning
+- Auto-Scaling
+
+### Production Operations (Part 4)
+- Backup Strategy
+- Backup Frequency
+- Backup Testing
+- Restore Procedures
+- Disaster Recovery Plan
+- Recovery Time Objective (RTO)
+- Recovery Point Objective (RPO)
+- Failover Procedures
+- Failover Testing
+- Production Readiness Checklist
+- Runbook Creation
+- Procedure Standardization
+- Emergency Procedures
+- Troubleshooting Guides
+
+### Operations Governance & Continuous Improvement (Part 5)
+- Operational Reviews
+- Post-Incident Reviews
+- Retrospectives
+- Root Cause Analysis
+- Continuous Improvement Process
+- Improvement Initiatives
+- Stakeholder Feedback
+- Best Practices Sharing
+- Process Optimization
+- Key Performance Indicators (KPIs)
+- Service Availability
+- MTBF (Mean Time Between Failures)
+- MTTD (Mean Time to Detect)
+- MTTR (Mean Time to Resolve)
+- Executive Dashboards
+- Operational Reporting
+
+### Enterprise Implementation Guidelines (Part 6)
+- Implementation Phases
+- Operational Onboarding
+- Governance Rollout
+- Monitoring Enablement
+- Support Transition
+- Production Stabilization
+- Operational Maturity Model
+- Maturity Assessment
+- Operations Review Checklist
+- Documentation References
+- Traceability Matrix
+- Operational Excellence Framework
+- Resilience Principles
+- Governance Foundation
+- Automation Strategy
+- Observability Mindset
 
 ---
 
@@ -908,9 +1011,9 @@ Comprehensive index of 1000+ architectural topics across all 12 enterprise archi
 
 ## Summary
 
-**Total Specifications:** 12
-**Total Topics:** 1000+
-**Bidirectional Cross-References:** 49+
+**Total Specifications:** 14
+**Total Topics:** 1200+
+**Bidirectional Cross-References:** 216+
 **Topic Coverage:** Comprehensive enterprise architecture framework
 
 See [Enterprise Architecture Overview](./enterprise-architecture.md) for specification summaries and [Cross-Reference Matrix](./cross-reference-matrix.md) for detailed cross-reference mapping.

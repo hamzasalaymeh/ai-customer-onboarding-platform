@@ -41,12 +41,14 @@ service without Docker.
 
 ### Quick Links
 
-- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 13-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing)
+- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 14-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing, Operations)
 - **[Technical Architecture](docs/architecture.md)** — Component diagrams and data flow
 - **[Testing Architecture](docs/testing-architecture.md)** — Quality assurance framework
-- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1000+ topics
-- **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (140+ across 5 parts)
-- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (110+ interconnections)
+- **[Operations Architecture](docs/operations-architecture.md)** — Service management framework
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 1200+ topics
+- **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (200+ across 10 parts)
+- **[Operations Topic Index](docs/operations-topic-index.md)** — Operations topics (60+ across 6 parts)
+- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (216+ interconnections)
 - **[API Reference](docs/api-reference.md)** — REST API specification
 - **[Getting Started](docs/getting-started.md)** — Developer quick-start guide
 
