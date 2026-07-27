@@ -6,7 +6,7 @@ Enterprise-wide service bus and event-driven architecture framework delivering r
 
 The Enterprise Service Bus (ESB) & Event-Driven Architecture Specification defines how the enterprise integrates services, routes messages, processes events, and orchestrates complex distributed workflows. It covers ESB architecture, enterprise messaging, event processing, service integration patterns, event governance, reliability, security, and enterprise readiness.
 
-## Specification Structure — 5 Parts
+## Specification Structure — 6 Parts
 
 ### Part 1: ESB Foundation
 Establishes the ESB vision, objectives, principles, and strategic framework. Defines the enterprise service bus foundation for delivering reliable, scalable, loosely-coupled service integration across all organizational systems.
@@ -28,10 +28,15 @@ Defines service orchestration, choreography, and enterprise integration patterns
 
 **Key Topics:** Service orchestration, choreography, EIPs (routing, transformation, aggregator, splitter), content-based routing, message translator, resequencer
 
-### Part 5: Event Governance & Enterprise Readiness
-Provides event governance framework, reliability and security mechanisms, enterprise implementation guidelines, and maturity assessment. Covers event schema, versioning, compliance, and production readiness.
+### Part 5: Event Governance & Security
+Provides event governance framework, reliability and security mechanisms for production deployment. Covers event schema, versioning, compliance, delivery guarantees, and saga patterns.
 
-**Key Topics:** Event governance, event schema, schema registry, event versioning, event security, delivery guarantees, saga pattern, exactly-once delivery, ESB governance, enterprise readiness
+**Key Topics:** Event governance, event schema, schema registry, event versioning, event security, delivery guarantees, saga pattern, exactly-once delivery, reliability, monitoring
+
+### Part 6: Enterprise Implementation Guidelines
+Provides phased implementation roadmap and maturity assessment for establishing enterprise ESB and event-driven architecture. Covers implementation phases, ESB maturity model, review checklist, and continuous optimization.
+
+**Key Topics:** Implementation phases, ESB maturity model, review checklist, production readiness, continuous improvement, enterprise readiness, acceptance criteria
 
 ---
 
@@ -74,7 +79,7 @@ Provides event governance framework, reliability and security mechanisms, enterp
 
 ## Related Documentation
 
-- [ESB Topic Index](./esb-topic-index.md) — Detailed ESB and event-driven topics (150+)
+- [ESB Topic Index](./esb-topic-index.md) — Detailed ESB and event-driven topics (160+)
 - [Enterprise Architecture](./enterprise-architecture.md) — 18-specification framework overview
-- [Architecture Index](./architecture-index.md) — Searchable topic index (1580+)
+- [Architecture Index](./architecture-index.md) — Searchable topic index (1630+)
 - [Cross-Reference Matrix](./cross-reference-matrix.md) — Bidirectional specification mapping (370+)

@@ -1,10 +1,10 @@
 # Enterprise Architecture — AI Customer Onboarding Platform
 
-Complete 16-specification enterprise architecture documentation with full cross-referencing and traceability.
+Complete 18-specification enterprise architecture documentation with full cross-referencing and traceability.
 
 ## Architecture Overview
 
-The AI Customer Onboarding Platform is built on a comprehensive 16-specification enterprise architecture framework spanning business requirements, process automation, business logic, applications, infrastructure, security, delivery, operations, data governance, and analytics.
+The AI Customer Onboarding Platform is built on a comprehensive 18-specification enterprise architecture framework spanning business requirements, process automation, business logic, applications, infrastructure, security, delivery, operations, data governance, analytics, identity and access management, and service bus integration.
 
 ### Enterprise Architecture Layers
 
@@ -39,7 +39,7 @@ The AI Customer Onboarding Platform is built on a comprehensive 16-specification
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 16 Enterprise Architecture Specifications
+## 18 Enterprise Architecture Specifications
 
 ### Specification 1: Workflow Engine (Parts 1–10)
 **Purpose:** Orchestrate multi-step customer onboarding flows with state machines, human tasks, approvals, and SLA management.
@@ -252,7 +252,7 @@ The AI Customer Onboarding Platform is built on a comprehensive 16-specification
 
 **Cross-References:** All 16 specifications (identity and access integration throughout)
 
-### Specification 13: Enterprise Service Bus (ESB) & Event-Driven Architecture (Parts 1–5)
+### Specification 13: Enterprise Service Bus (ESB) & Event-Driven Architecture (Parts 1–6)
 **Purpose:** Deliver reliable, scalable, loosely-coupled service integration and real-time event processing across all organizational systems and applications.
 
 **Key Domains:**
@@ -285,7 +285,7 @@ The AI Customer Onboarding Platform is built on a comprehensive 16-specification
 | Data Governance Architecture Specification (1–6) | Data governance | Data Management Team | ✓ |
 | Analytics & Business Intelligence Architecture Specification (1–6) | Analytics and BI | Analytics Team | ✓ |
 | Enterprise Identity & Access Management (IAM) Architecture Specification (1–6) | Identity and access management | IAM Team | ✓ |
-| Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (1–5) | ESB and event-driven integration | ESB Team | ✓ |
+| Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (1–6) | ESB and event-driven integration | ESB Team | ✓ |
 
 ## Searchable Topic Index
 
@@ -331,9 +331,9 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] Data Governance Architecture Specification (Parts 1–6) — Complete
 - [x] Analytics & Business Intelligence Architecture Specification (Parts 1–6) — Complete
 - [x] Enterprise Identity & Access Management (IAM) Architecture Specification (Parts 1–6) — Complete
-- [x] Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (Parts 1–5) — Complete
+- [x] Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (Parts 1–6) — Complete
 
-All 18 specifications complete with 370+ bidirectional cross-references (185+ parts total).
+All 18 specifications complete with 370+ bidirectional cross-references (190+ parts total).
 
 ## Related Documentation
 
