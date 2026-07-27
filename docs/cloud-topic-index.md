@@ -1,6 +1,6 @@
 # Enterprise Cloud Architecture Topic Index
 
-Comprehensive index of 210+ cloud architecture topics across the Enterprise Cloud Architecture Specification Parts 1–5.
+Comprehensive index of 220+ cloud architecture topics across the Enterprise Cloud Architecture Specification Parts 1–6.
 
 ## Quick Navigation
 
@@ -9,6 +9,7 @@ Comprehensive index of 210+ cloud architecture topics across the Enterprise Clou
 - [Cloud Services](#cloud-services) — Compute, storage, containers, serverless, IaC
 - [Cloud Operations](#cloud-operations) — Security, monitoring, disaster recovery, FinOps, governance
 - [Cloud Governance & Enterprise Readiness](#cloud-governance--enterprise-readiness) — Policies, standards, KPIs, readiness assessment
+- [Enterprise Implementation Guidelines](#enterprise-implementation-guidelines) — Adoption phases, maturity model, review checklist
 
 ---
 
@@ -398,11 +399,147 @@ Comprehensive index of 210+ cloud architecture topics across the Enterprise Clou
 
 ---
 
+## Enterprise Implementation Guidelines (Part 6)
+
+### Cloud Adoption Phases
+- Phase 1: Cloud Foundation — Governance, landing zones, identity
+- Phase 2: Core Services — Compute, storage, container platform
+- Phase 3: Advanced Services — Kubernetes, serverless, IaC automation
+- Phase 4: Platform Engineering — Self-service platform, developer experience
+- Phase 5: Security Integration — Advanced security controls, threat detection
+- Phase 6: Operational Readiness — Monitoring, automation, incident response
+- Phase 7: FinOps Adoption — Cost optimization, chargeback, forecasting
+- Phase 8: Continuous Optimization — Performance tuning, security hardening
+
+### Landing Zone Deployment
+- Landing zone structure — Zone organization
+- Core networking — VPC, subnets, routing
+- Perimeter security — Firewalls, DDoS protection
+- Identity integration — Azure AD, SAML, federation
+- Shared services — DNS, logging, monitoring
+- Compliance guardrails — Policy enforcement
+- Cost monitoring — Budget tracking
+- Documentation — Landing zone runbooks
+
+### Governance Enablement
+- Policy definition — Policy framework
+- Policy-as-code — Automated enforcement
+- Compliance automation — Continuous compliance
+- Audit automation — Automated auditing
+- Reporting automation — Automated reporting
+- Exception handling — Waiver process
+- Continuous monitoring — Real-time tracking
+- Stakeholder reporting — Executive dashboards
+
+### Workload Migration
+- Assessment phase — Workload evaluation
+- Migration planning — Migration roadmap
+- Rehosting (lift-and-shift) — VM migration
+- Replatforming (lift, tinker, shift) — Managed services
+- Refactoring (re-architect) — Cloud-native redesign
+- Repurchasing (SaaS replacement) — Cloud applications
+- Retiring (decommission) — Workload removal
+- Hybrid operation — On-premises and cloud
+
+### Platform Engineering
+- Developer portal — Self-service interface
+- Infrastructure templates — Reusable infrastructure
+- Service catalogs — Available services
+- Standards enforcement — Automatic compliance
+- Developer experience — Usability focus
+- Documentation — Platform guides
+- Support model — Platform support team
+- Feedback loop — Continuous improvement
+
+### Security Integration
+- Identity security — User authentication
+- Data security — Encryption, DLP
+- Application security — AppSec practices
+- Infrastructure security — Network, OS hardening
+- Cloud security — Cloud-native controls
+- Threat detection — SIEM, EDR
+- Incident response — Response procedures
+- Compliance controls — Regulatory controls
+
+### Operational Readiness
+- Monitoring setup — Observability platform
+- Alerting configuration — Alert rules
+- Runbook development — Operational procedures
+- Incident response — IR procedures
+- Knowledge base — Troubleshooting guides
+- Training program — Operational training
+- On-call rotations — Support schedules
+- Continuous improvement — Process refinement
+
+### FinOps Adoption
+- Cost visibility — Cost tracking
+- Cost allocation — Chargeback models
+- Budget management — Budget enforcement
+- Forecasting — Cost prediction
+- Optimization — Cost reduction
+- Reserved capacity — Commitment management
+- Spot instances — Discount utilization
+- Reporting — Stakeholder communication
+
+### Cloud Maturity Model
+- Level 1: Initial — Manual processes, reactive
+- Level 2: Managed — Some automation, documented
+- Level 3: Defined — Standardized, governance framework
+- Level 4: Measured — KPIs, analytics, optimization
+- Level 5: Optimized — Continuous improvement, AI-driven
+
+### Maturity Dimensions
+- Cloud governance maturity — Governance level
+- Cloud automation maturity — Automation level
+- Cloud security maturity — Security level
+- Cloud operations maturity — Operations level
+- Cloud resilience maturity — Resilience level
+- Cloud platform engineering maturity — Platform level
+- Cloud business alignment maturity — Business alignment level
+
+### Cloud Review Checklist
+- Governance — Cloud governance implemented
+- Networking — Cloud networking architecture
+- Identity — Cloud identity integration
+- Compute — Cloud compute platform
+- Storage — Cloud storage strategy
+- Containers — Kubernetes platform operational
+- Serverless — Serverless services deployed
+- Security — Cloud security controls active
+- Monitoring — Cloud monitoring operational
+- Disaster recovery — DR procedures tested
+- FinOps — Cost optimization processes
+- Compliance — Compliance framework active
+- Documentation — Architecture documented
+- Operational procedures — Procedures defined
+- Training — Team trained and certified
+- Executive approval — Leadership sign-off
+
+### Documentation References
+- References to PRD — Business requirements
+- References to Software Architecture — System design
+- References to Database Design — Data strategies
+- References to API Specification — Service contracts
+- References to Domain Model — Business entities
+- References to Security Architecture — Security controls
+- References to Integration Architecture — Integration services
+- References to Infrastructure Architecture — Infrastructure foundation
+- References to DevSecOps Architecture — CI/CD automation
+- References to Operations Architecture — Operations management
+- References to Data Governance — Data governance
+- References to Analytics & BI — Analytics capabilities
+- References to IAM Architecture — Identity services
+- References to ESB & Event-Driven — Messaging services
+- References to Microservices Architecture — Microservices platform
+- Traceability matrix — Documentation mapping
+
+---
+
 ## Summary
 
-**Total Topics:** 210+
+**Total Topics:** 220+
 **Specifications Cross-Referenced:** 19 (all prior specifications)
 **Interconnection Points:** 160+ (8 points per specification × 19+ specifications)
-**Coverage:** Complete cloud architecture framework with platform strategy, cloud services, operations, security, governance, and enterprise readiness
+**Coverage:** Complete cloud architecture framework with platform strategy, cloud services, operations, security, governance, enterprise readiness, and implementation guidelines
 
-See [Cloud Architecture Overview](./cloud-architecture.md) for specification summaries and [Enterprise Architecture Overview](./enterprise-architecture.md) for 20-specification framework with 240+ total parts.
+See [Cloud Architecture Overview](./cloud-architecture.md) for specification summaries and [Enterprise Architecture Overview](./enterprise-architecture.md) for 20-specification framework with 245+ total parts.

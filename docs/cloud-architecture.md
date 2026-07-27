@@ -6,7 +6,7 @@ Enterprise-wide cloud architecture framework delivering secure, scalable, resili
 
 The Enterprise Cloud Architecture Specification defines how the enterprise adopts, deploys, and manages cloud platforms across hybrid and multi-cloud environments. It covers cloud foundation, cloud platform strategy, cloud services, cloud operations, security, monitoring, disaster recovery, cost optimization, and enterprise governance.
 
-## Specification Structure — 5 Parts
+## Specification Structure — 6 Parts
 
 ### Part 1: Cloud Foundation
 Establishes the cloud architecture vision, objectives, principles, and strategic framework. Defines the enterprise cloud foundation for delivering secure, scalable, resilient, and cost-efficient cloud platforms.
@@ -32,6 +32,11 @@ Defines cloud security, monitoring and observability, disaster recovery, busines
 Provides cloud governance framework, policies, standards, KPIs, and enterprise readiness assessment. Covers governance committees, operating models, and continuous improvement.
 
 **Key Topics:** Cloud governance framework, cloud policies and standards, KPIs and metrics, enterprise readiness checklist, compliance, operational procedures
+
+### Part 6: Enterprise Implementation Guidelines
+Provides phased cloud adoption roadmap, cloud maturity model, implementation review checklist, and documentation traceability. Guides enterprises through successful cloud architecture deployment.
+
+**Key Topics:** Cloud adoption phases, landing zone deployment, governance enablement, workload migration, platform engineering, security integration, operational readiness, FinOps adoption, continuous optimization, cloud maturity levels, implementation review criteria, documentation references
 
 ---
 
@@ -84,7 +89,7 @@ Provides cloud governance framework, policies, standards, KPIs, and enterprise r
 
 ## Related Documentation
 
-- [Cloud Topic Index](./cloud-topic-index.md) — Detailed cloud architecture topics (210+)
+- [Cloud Topic Index](./cloud-topic-index.md) — Detailed cloud architecture topics (220+)
 - [Enterprise Architecture](./enterprise-architecture.md) — 20-specification framework overview
-- [Architecture Index](./architecture-index.md) — Searchable topic index (2070+)
+- [Architecture Index](./architecture-index.md) — Searchable topic index (2080+)
 - [Cross-Reference Matrix](./cross-reference-matrix.md) — Bidirectional specification mapping (410+)

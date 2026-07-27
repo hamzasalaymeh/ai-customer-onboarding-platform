@@ -312,11 +312,11 @@ The AI Customer Onboarding Platform is built on a comprehensive 20-specification
 | Enterprise Identity & Access Management (IAM) Architecture Specification (1–6) | Identity and access management | IAM Team | ✓ |
 | Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (1–6) | ESB and event-driven integration | ESB Team | ✓ |
 | Enterprise Microservices Architecture Specification (1–6) | Microservices and distributed systems | Microservices Team | ✓ |
-| Enterprise Cloud Architecture Specification (1–5) | Cloud platform and cloud services | Cloud Architecture Team | ✓ |
+| Enterprise Cloud Architecture Specification (1–6) | Cloud platform and cloud services | Cloud Architecture Team | ✓ |
 
 ## Searchable Topic Index
 
-See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 20 specifications with 50+ topics per specification and 2070+ total indexed topics.
+See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 20 specifications with 50+ topics per specification and 2080+ total indexed topics.
 
 See [Testing Topic Index](./testing-topic-index.md) for detailed testing topics across all 10 parts of Testing Architecture Specification.
 
@@ -332,11 +332,11 @@ See [ESB Topic Index](./esb-topic-index.md) for detailed ESB and event-driven to
 
 See [Microservices Topic Index](./microservices-topic-index.md) for detailed microservices and distributed systems topics across all 6 parts of Enterprise Microservices Architecture Specification.
 
-See [Cloud Topic Index](./cloud-topic-index.md) for detailed cloud architecture topics across all 5 parts of Enterprise Cloud Architecture Specification.
+See [Cloud Topic Index](./cloud-topic-index.md) for detailed cloud architecture topics across all 6 parts of Enterprise Cloud Architecture Specification.
 
 ## Cross-Reference Matrix
 
-See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 18 specifications with 370+ total interconnection points.
+See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 20 specifications with 410+ total interconnection points.
 
 ## Enterprise Implementation Guidance
 
@@ -364,14 +364,14 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] Enterprise Identity & Access Management (IAM) Architecture Specification (Parts 1–6) — Complete
 - [x] Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (Parts 1–6) — Complete
 - [x] Enterprise Microservices Architecture Specification (Parts 1–6) — Complete
-- [x] Enterprise Cloud Architecture Specification (Parts 1–5) — Complete
+- [x] Enterprise Cloud Architecture Specification (Parts 1–6) — Complete
 
-All 20 specifications complete with 410+ bidirectional cross-references (240+ parts total).
+All 20 specifications complete with 410+ bidirectional cross-references (245+ parts total).
 
 ## Related Documentation
 
 - [Architecture (Technical Components)](./architecture.md) — Component overview and data flow
-- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 2070+ topics
+- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 2080+ topics
 - [Testing Architecture](./testing-architecture.md) — Testing specification overview
 - [Testing Topic Index](./testing-topic-index.md) — Detailed testing topics (200+)
 - [Operations Architecture](./operations-architecture.md) — Operations specification overview

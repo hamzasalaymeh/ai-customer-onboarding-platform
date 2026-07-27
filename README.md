@@ -48,7 +48,7 @@ service without Docker.
 - **[Data Governance Architecture](docs/data-governance-architecture.md)** — Data governance framework
 - **[Analytics & Business Intelligence Architecture](docs/analytics-bi-architecture.md)** — Analytics and BI framework
 - **[Microservices Architecture](docs/microservices-architecture.md)** — Microservices and distributed systems framework
-- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 2070+ topics
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 2080+ topics
 - **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (200+ across 10 parts)
 - **[Operations Topic Index](docs/operations-topic-index.md)** — Operations topics (60+ across 6 parts)
 - **[Data Governance Topic Index](docs/data-governance-topic-index.md)** — Data governance topics (80+ across 6 parts)
@@ -56,7 +56,7 @@ service without Docker.
 - **[IAM Topic Index](docs/iam-topic-index.md)** — Identity and access management topics (100+ across 6 parts)
 - **[ESB Topic Index](docs/esb-topic-index.md)** — ESB and event-driven architecture topics (160+ across 6 parts)
 - **[Microservices Topic Index](docs/microservices-topic-index.md)** — Microservices and distributed systems topics (190+ across 6 parts)
-- **[Cloud Topic Index](docs/cloud-topic-index.md)** — Cloud architecture topics (210+ across 5 parts)
+- **[Cloud Topic Index](docs/cloud-topic-index.md)** — Cloud architecture topics (220+ across 6 parts)
 - **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (410+ interconnections)
 - **[API Reference](docs/api-reference.md)** — REST API specification
 - **[Getting Started](docs/getting-started.md)** — Developer quick-start guide
