@@ -48,9 +48,9 @@ service without Docker.
 - **[Data Governance Architecture](docs/data-governance-architecture.md)** — Data governance framework
 - **[Analytics & Business Intelligence Architecture](docs/analytics-bi-architecture.md)** — Analytics and BI framework
 - **[Microservices Architecture](docs/microservices-architecture.md)** — Microservices and distributed systems framework
-- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 2280+ topics
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 2290+ topics
 - **[Kubernetes Architecture](docs/kubernetes-architecture.md)** — Kubernetes specification overview
-- **[Kubernetes Topic Index](docs/kubernetes-topic-index.md)** — Kubernetes architecture topics (200+ across 5 parts)
+- **[Kubernetes Topic Index](docs/kubernetes-topic-index.md)** — Kubernetes architecture topics (210+ across 6 parts)
 - **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (200+ across 10 parts)
 - **[Operations Topic Index](docs/operations-topic-index.md)** — Operations topics (60+ across 6 parts)
 - **[Data Governance Topic Index](docs/data-governance-topic-index.md)** — Data governance topics (80+ across 6 parts)

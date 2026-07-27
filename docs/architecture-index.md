@@ -1,10 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 2280+ architectural topics across all 21 enterprise architecture specifications.
+Comprehensive index of 2290+ architectural topics across all 21 enterprise architecture specifications.
 
 ## Quick Navigation
 
-- [Kubernetes Architecture Topics](#kubernetes-architecture-topics) — 200+ topics across Parts 1–5
+- [Kubernetes Architecture Topics](#kubernetes-architecture-topics) — 210+ topics across Parts 1–6
 - [Cloud Architecture Topics](#cloud-architecture-topics) — 220+ topics across Parts 1–6
 - [Microservices Architecture Topics](#microservices-architecture-topics) — 190+ topics across Parts 1–6
 - [ESB & Event-Driven Architecture Topics](#esb--event-driven-architecture-topics) — 160+ topics across Parts 1–6
