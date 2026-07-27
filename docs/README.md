@@ -2,8 +2,8 @@
 
 ## Enterprise Architecture Framework
 
-- [`enterprise-architecture.md`](enterprise-architecture.md) — Complete 20-specification enterprise architecture overview covering Workflow Engine, Business Rules Engine, Security Architecture, AI Architecture, Integration Architecture, Infrastructure Architecture, DevSecOps Architecture, Testing Architecture, Operations Architecture, Data Governance Architecture, Analytics & Business Intelligence Architecture, Enterprise Identity & Access Management (IAM) Architecture, Enterprise Service Bus (ESB) & Event-Driven Architecture, Enterprise Microservices Architecture, and Enterprise Cloud Architecture.
-- [`architecture-index.md`](architecture-index.md) — Comprehensive searchable index of 2080+ architectural topics across all 20 specifications.
+- [`enterprise-architecture.md`](enterprise-architecture.md) — Complete 21-specification enterprise architecture overview covering Workflow Engine, Business Rules Engine, Security Architecture, AI Architecture, Integration Architecture, Infrastructure Architecture, DevSecOps Architecture, Testing Architecture, Operations Architecture, Data Governance Architecture, Analytics & Business Intelligence Architecture, Enterprise Identity & Access Management (IAM) Architecture, Enterprise Service Bus (ESB) & Event-Driven Architecture, Enterprise Microservices Architecture, Enterprise Cloud Architecture, and Enterprise Kubernetes Architecture.
+- [`architecture-index.md`](architecture-index.md) — Comprehensive searchable index of 2280+ architectural topics across all 21 specifications.
 - [`testing-architecture.md`](testing-architecture.md) — Testing Architecture specification overview and framework (10 parts).
 - [`testing-topic-index.md`](testing-topic-index.md) — Detailed testing topics (200+ across 10 parts).
 - [`operations-architecture.md`](operations-architecture.md) — Operations Architecture specification overview and framework (6 parts).
@@ -20,7 +20,9 @@
 - [`microservices-topic-index.md`](microservices-topic-index.md) — Detailed microservices and distributed systems topics (190+ across 6 parts).
 - [`cloud-architecture.md`](cloud-architecture.md) — Enterprise Cloud Architecture specification overview and framework (6 parts).
 - [`cloud-topic-index.md`](cloud-topic-index.md) — Detailed cloud architecture topics (220+ across 6 parts).
-- [`cross-reference-matrix.md`](cross-reference-matrix.md) — Bidirectional cross-reference mapping showing 410+ interconnection points between all specifications.
+- [`kubernetes-architecture.md`](kubernetes-architecture.md) — Enterprise Kubernetes Architecture specification overview and framework (5 parts).
+- [`kubernetes-topic-index.md`](kubernetes-topic-index.md) — Detailed Kubernetes architecture topics (200+ across 5 parts).
+- [`cross-reference-matrix.md`](cross-reference-matrix.md) — Bidirectional cross-reference mapping showing 430+ interconnection points between all specifications.
 
 ## Technical Architecture & Getting Started
 

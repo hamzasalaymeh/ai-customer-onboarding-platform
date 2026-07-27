@@ -41,14 +41,16 @@ service without Docker.
 
 ### Quick Links
 
-- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 20-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing, Operations, Data Governance, Analytics & BI, IAM, ESB, Microservices, Cloud)
+- **[Enterprise Architecture Overview](docs/enterprise-architecture.md)** — Complete 21-specification framework (Workflow Engine, Business Rules, Security, AI, Integration, Infrastructure, DevSecOps, Testing, Operations, Data Governance, Analytics & BI, IAM, ESB, Microservices, Cloud, Kubernetes)
 - **[Technical Architecture](docs/architecture.md)** — Component diagrams and data flow
 - **[Testing Architecture](docs/testing-architecture.md)** — Quality assurance framework
 - **[Operations Architecture](docs/operations-architecture.md)** — Service management framework
 - **[Data Governance Architecture](docs/data-governance-architecture.md)** — Data governance framework
 - **[Analytics & Business Intelligence Architecture](docs/analytics-bi-architecture.md)** — Analytics and BI framework
 - **[Microservices Architecture](docs/microservices-architecture.md)** — Microservices and distributed systems framework
-- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 2080+ topics
+- **[Architecture Topic Index](docs/architecture-index.md)** — Searchable index of 2280+ topics
+- **[Kubernetes Architecture](docs/kubernetes-architecture.md)** — Kubernetes specification overview
+- **[Kubernetes Topic Index](docs/kubernetes-topic-index.md)** — Kubernetes architecture topics (200+ across 5 parts)
 - **[Testing Topic Index](docs/testing-topic-index.md)** — Testing topics (200+ across 10 parts)
 - **[Operations Topic Index](docs/operations-topic-index.md)** — Operations topics (60+ across 6 parts)
 - **[Data Governance Topic Index](docs/data-governance-topic-index.md)** — Data governance topics (80+ across 6 parts)
@@ -57,7 +59,7 @@ service without Docker.
 - **[ESB Topic Index](docs/esb-topic-index.md)** — ESB and event-driven architecture topics (160+ across 6 parts)
 - **[Microservices Topic Index](docs/microservices-topic-index.md)** — Microservices and distributed systems topics (190+ across 6 parts)
 - **[Cloud Topic Index](docs/cloud-topic-index.md)** — Cloud architecture topics (220+ across 6 parts)
-- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (410+ interconnections)
+- **[Cross-Reference Matrix](docs/cross-reference-matrix.md)** — Bidirectional specification mapping (430+ interconnections)
 - **[API Reference](docs/api-reference.md)** — REST API specification
 - **[Getting Started](docs/getting-started.md)** — Developer quick-start guide
 

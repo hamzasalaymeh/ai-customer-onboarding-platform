@@ -1,9 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 2080+ architectural topics across all 20 enterprise architecture specifications.
+Comprehensive index of 2280+ architectural topics across all 21 enterprise architecture specifications.
 
 ## Quick Navigation
 
+- [Kubernetes Architecture Topics](#kubernetes-architecture-topics) — 200+ topics across Parts 1–5
 - [Cloud Architecture Topics](#cloud-architecture-topics) — 220+ topics across Parts 1–6
 - [Microservices Architecture Topics](#microservices-architecture-topics) — 190+ topics across Parts 1–6
 - [ESB & Event-Driven Architecture Topics](#esb--event-driven-architecture-topics) — 160+ topics across Parts 1–6
@@ -19,6 +20,122 @@ Comprehensive index of 2080+ architectural topics across all 20 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Enterprise Kubernetes Architecture Topics
+
+### Kubernetes Foundation (Part 1)
+- Kubernetes Architecture Vision
+- Kubernetes Strategy
+- Kubernetes Objectives
+- Business Value
+- Kubernetes-First Strategy
+- Enterprise Kubernetes Framework
+- Platform Engineering
+- Cloud-Native Operations
+- GitOps Principles
+- Infrastructure as Code
+- Zero Trust Principle
+- Policy as Code
+- Self-Service Platforms
+- Immutable Infrastructure
+- Declarative Configuration
+
+### Cluster Architecture (Part 2)
+- Kubernetes Cluster Topology
+- Production Clusters
+- Control Plane Architecture
+- API Server
+- etcd (Distributed Key-Value Store)
+- Scheduler
+- Controller Manager
+- Worker Nodes
+- Node Pools
+- Node Autoscaling
+- Namespace Strategy
+- Multi-Tenancy Model
+- Resource Quotas
+- Kubernetes Networking
+- CNI (Container Network Interface)
+- Network Policies
+- Ingress Controllers
+- Service Discovery
+- Load Balancing
+
+### Storage & Workloads (Part 3)
+- Persistent Volumes
+- Persistent Volume Claims
+- Storage Classes
+- CSI Drivers (Container Storage Interface)
+- Dynamic Provisioning
+- Snapshot Management
+- Backup Strategy
+- Deployments
+- StatefulSets
+- DaemonSets
+- Jobs and CronJobs
+- Workload Scheduling
+- Horizontal Pod Autoscaling (HPA)
+- Affinity Rules
+- Resource Requests and Limits
+- Service Mesh
+- Istio
+- Linkerd
+- mTLS (Mutual TLS)
+- GitOps
+- ArgoCD
+- FluxCD
+- Image Signing and Scanning
+- Secrets Management
+- Pod Security Standards
+- Admission Controllers
+
+### Observability & HA/DR (Part 4)
+- Centralized Logging
+- Metrics Collection
+- Prometheus Monitoring
+- Dashboards and Visualization
+- Grafana
+- Alerting and Notifications
+- Distributed Tracing
+- Jaeger
+- High Availability
+- Multi-Zone Deployments
+- Cluster Redundancy
+- Backup and Recovery
+- Disaster Recovery Planning
+- RPO/RTO Objectives
+- Performance Optimization
+- Capacity Planning
+- Resource Optimization
+- Autoscaling Strategies
+- Governance and Compliance
+- Policy as Code
+- OPA/Gatekeeper
+- Compliance Auditing
+
+### Governance & Readiness (Part 5)
+- Kubernetes Governance Model
+- Platform Ownership
+- Operating Model
+- Governance Committees
+- Roles and Responsibilities
+- Cluster Configuration Standards
+- Naming Conventions
+- Security Baselines
+- Networking Standards
+- Storage Standards
+- Workload Management Policies
+- Kubernetes KPIs
+- Platform Availability Metrics
+- Resource Utilization Metrics
+- Deployment Frequency
+- Mean Time to Recovery (MTTR)
+- Enterprise Readiness Assessment
+- Documentation Standards
+- Training Requirements
+- Cross-Reference Matrix
 
 ---
 
