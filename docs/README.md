@@ -2,8 +2,8 @@
 
 ## Enterprise Architecture Framework
 
-- [`enterprise-architecture.md`](enterprise-architecture.md) — Complete 17-specification enterprise architecture overview covering Workflow Engine, Business Rules Engine, Security Architecture, AI Architecture, Integration Architecture, Infrastructure Architecture, DevSecOps Architecture, Testing Architecture, Operations Architecture, Data Governance Architecture, Analytics & Business Intelligence Architecture, and Enterprise Identity & Access Management (IAM) Architecture.
-- [`architecture-index.md`](architecture-index.md) — Comprehensive searchable index of 1430+ architectural topics across all 17 specifications.
+- [`enterprise-architecture.md`](enterprise-architecture.md) — Complete 18-specification enterprise architecture overview covering Workflow Engine, Business Rules Engine, Security Architecture, AI Architecture, Integration Architecture, Infrastructure Architecture, DevSecOps Architecture, Testing Architecture, Operations Architecture, Data Governance Architecture, Analytics & Business Intelligence Architecture, Enterprise Identity & Access Management (IAM) Architecture, and Enterprise Service Bus (ESB) & Event-Driven Architecture.
+- [`architecture-index.md`](architecture-index.md) — Comprehensive searchable index of 1580+ architectural topics across all 18 specifications.
 - [`testing-architecture.md`](testing-architecture.md) — Testing Architecture specification overview and framework (10 parts).
 - [`testing-topic-index.md`](testing-topic-index.md) — Detailed testing topics (200+ across 10 parts).
 - [`operations-architecture.md`](operations-architecture.md) — Operations Architecture specification overview and framework (6 parts).
@@ -14,7 +14,9 @@
 - [`analytics-bi-topic-index.md`](analytics-bi-topic-index.md) — Detailed analytics and BI topics (80+ across 6 parts).
 - [`iam-architecture.md`](iam-architecture.md) — Enterprise Identity & Access Management (IAM) Architecture specification overview and framework (6 parts).
 - [`iam-topic-index.md`](iam-topic-index.md) — Detailed IAM topics (100+ across 6 parts).
-- [`cross-reference-matrix.md`](cross-reference-matrix.md) — Bidirectional cross-reference mapping showing 350+ interconnection points between all specifications.
+- [`esb-architecture.md`](esb-architecture.md) — Enterprise Service Bus (ESB) & Event-Driven Architecture specification overview and framework (5 parts).
+- [`esb-topic-index.md`](esb-topic-index.md) — Detailed ESB and event-driven topics (150+ across 5 parts).
+- [`cross-reference-matrix.md`](cross-reference-matrix.md) — Bidirectional cross-reference mapping showing 370+ interconnection points between all specifications.
 
 ## Technical Architecture & Getting Started
 

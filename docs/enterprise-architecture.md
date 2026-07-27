@@ -252,6 +252,18 @@ The AI Customer Onboarding Platform is built on a comprehensive 16-specification
 
 **Cross-References:** All 16 specifications (identity and access integration throughout)
 
+### Specification 13: Enterprise Service Bus (ESB) & Event-Driven Architecture (Parts 1–5)
+**Purpose:** Deliver reliable, scalable, loosely-coupled service integration and real-time event processing across all organizational systems and applications.
+
+**Key Domains:**
+- ESB Foundation (vision, objectives, framework, event-driven architecture)
+- Enterprise Messaging (routing, transformation, mediation, queuing)
+- Event Processing (broker, streaming, publish/subscribe, distribution)
+- Service Integration (orchestration, choreography, enterprise integration patterns)
+- Event Governance & Readiness (schema, governance, security, delivery guarantees, saga pattern, enterprise readiness)
+
+**Cross-References:** All 17 specifications (ESB integration throughout)
+
 ## Document Relationship Matrix
 
 | Document | Purpose | Owner | Status |
@@ -273,10 +285,11 @@ The AI Customer Onboarding Platform is built on a comprehensive 16-specification
 | Data Governance Architecture Specification (1–6) | Data governance | Data Management Team | ✓ |
 | Analytics & Business Intelligence Architecture Specification (1–6) | Analytics and BI | Analytics Team | ✓ |
 | Enterprise Identity & Access Management (IAM) Architecture Specification (1–6) | Identity and access management | IAM Team | ✓ |
+| Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (1–5) | ESB and event-driven integration | ESB Team | ✓ |
 
 ## Searchable Topic Index
 
-See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 17 specifications with 50+ topics per specification and 1430+ total indexed topics.
+See [Architecture Topic Index](./architecture-index.md) for comprehensive topic listing across all 18 specifications with 50+ topics per specification and 1580+ total indexed topics.
 
 See [Testing Topic Index](./testing-topic-index.md) for detailed testing topics across all 10 parts of Testing Architecture Specification.
 
@@ -288,9 +301,11 @@ See [Analytics & Business Intelligence Topic Index](./analytics-bi-topic-index.m
 
 See [IAM Topic Index](./iam-topic-index.md) for detailed IAM topics across all 6 parts of Enterprise IAM Architecture Specification.
 
+See [ESB Topic Index](./esb-topic-index.md) for detailed ESB and event-driven topics across all 5 parts of Enterprise ESB & Event-Driven Architecture Specification.
+
 ## Cross-Reference Matrix
 
-See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 17 specifications with 350+ total interconnection points.
+See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for complete bidirectional cross-reference mapping across all 18 specifications with 370+ total interconnection points.
 
 ## Enterprise Implementation Guidance
 
@@ -316,13 +331,14 @@ See [Architecture Cross-Reference Matrix](./cross-reference-matrix.md) for compl
 - [x] Data Governance Architecture Specification (Parts 1–6) — Complete
 - [x] Analytics & Business Intelligence Architecture Specification (Parts 1–6) — Complete
 - [x] Enterprise Identity & Access Management (IAM) Architecture Specification (Parts 1–6) — Complete
+- [x] Enterprise Service Bus (ESB) & Event-Driven Architecture Specification (Parts 1–5) — Complete
 
-All 17 specifications complete with 350+ bidirectional cross-references (180+ parts total).
+All 18 specifications complete with 370+ bidirectional cross-references (185+ parts total).
 
 ## Related Documentation
 
 - [Architecture (Technical Components)](./architecture.md) — Component overview and data flow
-- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 1430+ topics
+- [Architecture Index (Topic Search)](./architecture-index.md) — Searchable index of 1580+ topics
 - [Testing Architecture](./testing-architecture.md) — Testing specification overview
 - [Testing Topic Index](./testing-topic-index.md) — Detailed testing topics (200+)
 - [Operations Architecture](./operations-architecture.md) — Operations specification overview

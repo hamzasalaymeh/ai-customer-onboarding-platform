@@ -1,9 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1430+ architectural topics across all 17 enterprise architecture specifications.
+Comprehensive index of 1580+ architectural topics across all 18 enterprise architecture specifications.
 
 ## Quick Navigation
 
+- [ESB & Event-Driven Architecture Topics](#esb--event-driven-architecture-topics) — 150+ topics across Parts 1–5
 - [IAM Architecture Topics](#iam-architecture-topics) — 100+ topics across Parts 1–6
 - [Analytics & Business Intelligence Topics](#analytics--business-intelligence-topics) — 80+ topics across Parts 1–6
 - [Data Governance Architecture Topics](#data-governance-architecture-topics) — 80+ topics across Parts 1–6
@@ -16,6 +17,291 @@ Comprehensive index of 1430+ architectural topics across all 17 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Enterprise Service Bus (ESB) & Event-Driven Architecture Topics
+
+### ESB Foundation (Part 1)
+- ESB Vision
+- ESB Objectives
+- Core ESB Principles
+- Enterprise ESB Framework
+- Event-Driven Architecture
+- Enterprise Integration
+- Canonical Data Model
+- Business Value
+
+### Enterprise Messaging (Part 2)
+- Messaging Vision
+- Messaging Framework
+- Message Model
+- Message Channels
+- Reliable Messaging
+- Asynchronous Communication
+- Message-Oriented Middleware
+- Scalable Messaging
+- Routing Architecture
+- Router Patterns
+- Dynamic Routing
+- Content-Based Routing
+- Priority Routing
+- Message Selector
+- Routing Policies
+- Routing Performance
+- Transformation Architecture
+- Transformer Patterns
+- Format Conversion
+- Data Mapping
+- Enrichment
+- Normalization
+- Translation
+- Validation
+- Mediation Patterns
+- Intermediary
+- Adapter Patterns
+- Bridge Patterns
+- Gateway Patterns
+- Facade Patterns
+- Protocol Adaptation
+- Service Adaptation
+- Queue Architecture
+- Message Queue
+- Queue Operations
+- Queue Persistence
+- Queue Performance
+- Queue Monitoring
+- Queue Scaling
+- Queue Clustering
+- Dead Letter Queue
+- DLQ Handling
+- Retry Mechanism
+- Retry Policy
+- Exponential Backoff
+- Retry Limits
+- Error Handling
+- Recovery Procedures
+
+### Event Processing (Part 3)
+- Broker Vision
+- Broker Architecture
+- Event Bus
+- Event Broker
+- Broker Clustering
+- Broker Redundancy
+- Broker Scaling
+- Broker Management
+- Streaming Architecture
+- Stream Processing
+- Event Stream
+- Streaming Topology
+- Streaming Windows
+- Windowing
+- Stateful Streaming
+- Streaming State
+- Publish/Subscribe
+- Publisher
+- Subscriber
+- Topic-Based
+- Content-Based
+- Subscription Management
+- Dynamic Subscriptions
+- Wildcard Subscriptions
+- Distribution Architecture
+- Event Delivery
+- Event Fan-Out
+- Event Aggregation
+- Event Filtering
+- Event Routing
+- Event Ordering
+- Event Correlation
+- Topic Architecture
+- Topic Naming
+- Topic Hierarchies
+- Topic Retention
+- Topic Partitioning
+- Topic Scaling
+- Topic Configuration
+- Topic Management
+- Consumer Architecture
+- Consumer Groups
+- Consumer Offset
+- Consumer Rebalancing
+- Competing Consumers
+- Selective Consumers
+- Consumer Performance
+- Consumer Monitoring
+- Producer Architecture
+- Producer Performance
+- Batching
+- Buffering
+- Flow Control
+- Back Pressure
+- Producer Reliability
+- Producer Monitoring
+- Persistence Architecture
+- Event Storage
+- Event Log
+- Event Replay
+- Snapshots
+- Compaction
+- Retention Policies
+- Archival
+
+### Service Integration (Part 4)
+- Orchestration Pattern
+- Orchestrator
+- Workflow Orchestration
+- BPMN
+- Service Composition
+- Long-Running Transactions
+- Compensation
+- Orchestration Governance
+- Choreography Pattern
+- Decentralized Control
+- Event Choreography
+- Saga Choreography
+- Self-Contained Services
+- Message Choreography
+- Choreography Patterns
+- Choreography Governance
+- EIP Framework
+- Message Channel
+- Publish-Subscribe Channel
+- Routing Patterns
+- Message Transformation
+- Message Endpoint
+- System Adapter
+- Pattern Library
+- CBR Pattern
+- Router
+- Routing Rules
+- Dynamic Routing
+- XPath Routing
+- Regular Expression
+- Routing Tables
+- Rule Evaluation
+- Translator Pattern
+- Protocol Translation
+- Format Translation
+- Semantic Translation
+- Transformation Logic
+- Custom Transformers
+- Chained Translators
+- Translator Performance
+- Aggregator Pattern
+- Aggregation Logic
+- Correlation
+- Timeout
+- Aggregation Strategy
+- Partial Aggregation
+- Aggregation Size
+- Performance
+- Splitter Pattern
+- Split Logic
+- Token-Based Splitter
+- Streaming Splitter
+- Parallel Splitting
+- Sequential Splitting
+- Error Handling
+- Performance
+- Resequencer Pattern
+- Sequence Number
+- Timeout
+- Batch Resequencing
+- Stream Resequencing
+- Resequencing Logic
+- Performance
+- Out-of-Order Handling
+
+### Event Governance & Enterprise Readiness (Part 5)
+- Schema Architecture
+- Event Schema
+- Schema Design
+- Schema Versioning
+- Schema Compatibility
+- Schema Validation
+- Schema Governance
+- Schema Registry
+- Versioning Strategy
+- Schema Evolution
+- Backward Compatibility
+- Forward Compatibility
+- Major Versions
+- Minor Versions
+- Deprecation
+- Migration
+- Event Ownership
+- Responsibility
+- SLA
+- Compliance Requirements
+- Audit Trail
+- Retention Compliance
+- Data Privacy
+- Regulatory Mapping
+- Security Architecture
+- Message Encryption
+- Transport Security
+- Authentication
+- Authorization
+- Access Control
+- Audit Logging
+- Threat Detection
+- Delivery Guarantees
+- At-Least-Once
+- At-Most-Once
+- Exactly-Once
+- Duplicate Detection
+- Idempotency
+- Error Handling
+- Monitoring
+- Saga Pattern
+- Orchestrated Saga
+- Choreography Saga
+- Compensation
+- Saga State
+- Saga Timeout
+- Failure Scenarios
+- Saga Monitoring
+- Observability Architecture
+- Monitoring Infrastructure
+- Metrics
+- Logging
+- Tracing
+- Correlation IDs
+- Performance Monitoring
+- Health Checks
+- Governance Framework
+- ESB Policies
+- Integration Standards
+- Messaging Standards
+- Event Standards
+- Naming Conventions
+- Documentation Standards
+- Change Governance
+- Implementation Phases
+- Assessment & Planning
+- Messaging Infrastructure
+- Event Platform
+- Integration Patterns
+- Governance & Scale
+- Maturity Model
+- Level 1: Initial
+- Level 2: Managed
+- Level 3: Defined
+- Level 4: Measured
+- Level 5: Optimized
+- Enterprise Readiness Checklist
+- ESB Infrastructure
+- Messaging Platform
+- Event Processing
+- Service Integration
+- Governance Implementation
+- Security Controls
+- Monitoring Systems
+- Documentation
+- Performance
+- Enterprise Approval
 
 ---
 
