@@ -6,7 +6,7 @@ Enterprise-wide microservices architecture framework delivering scalable, resili
 
 The Enterprise Microservices Architecture Specification defines how the enterprise decomposes monolithic applications into independently deployable microservices, manages distributed systems, enables resilient communication, and maintains enterprise governance. It covers microservices foundation, service decomposition, communication patterns, resilience mechanisms, distributed data management, service mesh, operations, security, and enterprise readiness.
 
-## Specification Structure — 5 Parts
+## Specification Structure — 6 Parts
 
 ### Part 1: Microservices Foundation
 Establishes the microservices vision, objectives, principles, and strategic framework. Defines the enterprise microservices foundation for delivering scalable, resilient, independently deployable business capabilities.
@@ -32,6 +32,11 @@ Defines observability, distributed tracing, security controls, deployment strate
 Provides microservices governance framework, policies, standards, KPIs, and enterprise readiness assessment. Covers service lifecycle governance, architecture review, and continuous improvement.
 
 **Key Topics:** Microservices governance, policies and standards, KPIs and metrics, enterprise readiness checklist, service lifecycle, architecture standards, operational accountability
+
+### Part 6: Enterprise Implementation Guidelines
+Provides phased implementation roadmap and maturity assessment for establishing enterprise microservices architecture. Covers implementation phases, microservices maturity model, review checklist, and continuous optimization.
+
+**Key Topics:** Implementation phases, microservices maturity model, review checklist, production readiness, continuous improvement, enterprise readiness, acceptance criteria
 
 ---
 
@@ -78,7 +83,7 @@ Provides microservices governance framework, policies, standards, KPIs, and ente
 
 ## Related Documentation
 
-- [Microservices Topic Index](./microservices-topic-index.md) — Detailed microservices and distributed systems topics (180+)
+- [Microservices Topic Index](./microservices-topic-index.md) — Detailed microservices and distributed systems topics (190+)
 - [Enterprise Architecture](./enterprise-architecture.md) — 19-specification framework overview
-- [Architecture Index](./architecture-index.md) — Searchable topic index (1810+)
+- [Architecture Index](./architecture-index.md) — Searchable topic index (1860+)
 - [Cross-Reference Matrix](./cross-reference-matrix.md) — Bidirectional specification mapping (390+)
