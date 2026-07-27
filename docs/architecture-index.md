@@ -1,9 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1860+ architectural topics across all 19 enterprise architecture specifications.
+Comprehensive index of 2070+ architectural topics across all 20 enterprise architecture specifications.
 
 ## Quick Navigation
 
+- [Cloud Architecture Topics](#cloud-architecture-topics) — 210+ topics across Parts 1–5
 - [Microservices Architecture Topics](#microservices-architecture-topics) — 190+ topics across Parts 1–6
 - [ESB & Event-Driven Architecture Topics](#esb--event-driven-architecture-topics) — 160+ topics across Parts 1–6
 - [IAM Architecture Topics](#iam-architecture-topics) — 100+ topics across Parts 1–6
@@ -18,6 +19,323 @@ Comprehensive index of 1860+ architectural topics across all 19 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Enterprise Cloud Architecture Topics
+
+### Cloud Foundation (Part 1)
+- Cloud Architecture Vision
+- Cloud Strategy
+- Cloud Objectives
+- Business Value
+- Cloud-First Strategy
+- Enterprise Cloud Framework
+- Cloud Governance
+- Cloud-First Principle
+- Automation Principle
+- Elasticity Principle
+- Resilience Principle
+- Zero Trust Principle
+- Infrastructure as Code
+- Observability Principle
+- Cost Optimization Principle
+- Security by Design
+
+### Cloud Platform Strategy (Part 2)
+- Cloud Deployment Models
+- Public Cloud
+- Private Cloud
+- Hybrid Cloud
+- Multi-Cloud
+- Selection Criteria
+- Workload Placement
+- Governance Considerations
+- Interoperability
+- Cloud Landing Zone
+- Landing Zone Design
+- Account Strategy
+- Subscription Strategy
+- Resource Hierarchy
+- Identity Integration
+- Network Segmentation
+- Security Baselines
+- Policy Enforcement
+- Hybrid & Multi-Cloud Strategy
+- Cloud Provider Selection
+- Portability
+- Data Sovereignty
+- Vendor Lock-In Mitigation
+- Operational Consistency
+- Workload Optimization
+- Failover Across Clouds
+- Cloud Networking Architecture
+- Virtual Networks
+- Virtual Private Cloud (VPC)
+- Subnets
+- Route Tables
+- VPN
+- Express Connectivity
+- DNS
+- Load Balancers
+- Network Security Groups
+- Traffic Management
+- Network Monitoring
+- Network Peering
+- Bandwidth Management
+- Cloud Identity Integration
+- Cloud Identity Service
+- Directory Synchronization
+- Identity Federation
+- Single Sign-On (SSO)
+- Multi-Factor Authentication (MFA)
+- Privileged Access Management
+- Role-Based Access Control (RBAC)
+- Attribute-Based Access Control (ABAC)
+- Zero Trust Access
+- Service Principals
+- Key Management
+
+### Cloud Services (Part 3)
+- Cloud Compute Architecture
+- Virtual Machines
+- Managed Compute
+- Autoscaling
+- Autoscaler
+- Workload Placement
+- High Availability
+- Auto-Failover
+- Instance Types
+- Performance Tiers
+- Spot Instances
+- Reserved Instances
+- Compute Monitoring
+- Lifecycle Management
+- Cloud Storage Architecture
+- Object Storage
+- Block Storage
+- File Storage
+- Archive Storage
+- Database Storage
+- Storage Encryption
+- Encryption in Transit
+- Replication
+- Backup Strategy
+- Recovery Procedures
+- Lifecycle Policies
+- Performance Tiers
+- Data Durability
+- Storage Disaster Recovery
+- Storage Cost Optimization
+- Container & Kubernetes
+- Kubernetes Architecture
+- Container Platform
+- Container Registry
+- Cluster Architecture
+- Node Pools
+- Namespaces
+- Ingress
+- Service Mesh
+- Network Policies
+- Workload Scheduling
+- Security Policies
+- Resource Quotas
+- Horizontal Pod Autoscaler
+- Vertical Pod Autoscaler
+- Cluster Monitoring
+- Kubernetes Governance
+- Serverless Architecture
+- Serverless Computing
+- Functions
+- API Triggers
+- Event Triggers
+- Messaging Triggers
+- Scheduled Triggers
+- Managed Integrations
+- Orchestration
+- State Management
+- Scalability
+- Cold Start Optimization
+- Serverless Cost Optimization
+- Serverless Monitoring
+- Serverless Alerting
+- Infrastructure as Code (IaC)
+- IaC Tools
+- Terraform
+- CloudFormation
+- Bicep
+- ARM Templates
+- Declarative Templates
+- Reusable Modules
+- Version Control
+- Policy Validation
+- CI/CD Integration
+- Configuration Drift
+- State Management
+- IaC Secrets
+- Template Documentation
+- IaC Testing
+
+### Cloud Operations (Part 4)
+- Cloud Security Architecture
+- Cloud Security Framework
+- Zero Trust Security
+- Identity Protection
+- Encryption
+- Key Management
+- Workload Security
+- Network Security
+- DDoS Protection
+- Web Application Firewall (WAF)
+- Security Posture Management
+- Threat Detection
+- Incident Response
+- Compliance Controls
+- Security Monitoring
+- Vulnerability Management
+- Cloud Monitoring & Observability
+- Monitoring Infrastructure
+- Centralized Logging
+- Metrics Collection
+- Distributed Tracing
+- Application Insights
+- Service Health Monitoring
+- Dashboards
+- Alerting
+- Notifications
+- Runbooks
+- Incident Management
+- Capacity Analysis
+- Performance Analysis
+- Cost Analysis
+- Operational Visibility
+- Disaster Recovery & Business Continuity
+- Disaster Recovery Plan
+- Business Continuity Plan
+- Backup Strategy
+- Backup Frequency
+- Backup Retention
+- Recovery Objectives
+- RPO (Recovery Point Objective)
+- RTO (Recovery Time Objective)
+- Cross-Region Replication
+- Failover Mechanisms
+- Failover Testing
+- Recovery Testing
+- Recovery Procedures
+- Communication Plan
+- Vendor Coordination
+- Cloud Cost Optimization (FinOps)
+- FinOps Framework
+- Budgeting
+- Cost Allocation
+- Tagging Strategy
+- Tagging Standards
+- Cost Anomaly Detection
+- Rightsizing
+- Reserved Capacity
+- Spot Instances
+- Autoscaling Optimization
+- Forecasting
+- Cost Reporting
+- Cost Optimization Initiatives
+- Waste Identification
+- Stakeholder Communication
+- Cloud Governance & Compliance
+- Governance Policies
+- Guardrails
+- Policy-as-Code
+- Compliance Requirements
+- Compliance Monitoring
+- Audit Trails
+- Lifecycle Management
+- Resource Naming Conventions
+- Resource Tagging
+- Resource Cleanup
+- Cost Controls
+- Security Baselines
+- Compliance Assessments
+- Risk Management
+- Operating Standards
+
+### Cloud Governance & Enterprise Readiness (Part 5)
+- Cloud Governance Framework
+- Governance Model
+- Governance Committee
+- Cloud Leadership
+- Roles and Responsibilities
+- Decision Rights
+- Operating Model
+- Policy Enforcement
+- Escalation Procedures
+- Continuous Improvement
+- Stakeholder Communication
+- Change Management
+- Cloud Policies & Standards
+- Cloud Architecture Standards
+- Naming Conventions
+- Resource Tagging Standards
+- Security Baselines
+- Networking Standards
+- Identity Standards
+- Compute Standards
+- Storage Standards
+- Backup Standards
+- Disaster Recovery Standards
+- Compliance Standards
+- Cost Control Standards
+- Operational Standards
+- Documentation Standards
+- Training Requirements
+- Cloud KPIs & Metrics
+- Cloud Availability
+- Cloud Reliability
+- MTBF (Mean Time Between Failures)
+- Scalability Metrics
+- Security Posture Score
+- Compliance Score
+- Cost Efficiency
+- Operational Efficiency
+- Automation Maturity
+- Deployment Frequency
+- Lead Time for Changes
+- Mean Time to Recovery (MTTR)
+- Change Failure Rate
+- User Satisfaction
+- SLA Compliance
+- Disaster Recovery Readiness
+- Enterprise Readiness Checklist
+- Governance Assessment
+- Architecture Assessment
+- Security Assessment
+- Networking Assessment
+- Identity Assessment
+- Compute Assessment
+- Storage Assessment
+- Containers Assessment
+- Serverless Assessment
+- Infrastructure Automation Assessment
+- Operations Assessment
+- Disaster Recovery Assessment
+- FinOps Assessment
+- Compliance Assessment
+- Documentation Assessment
+- Training Assessment
+- Change Management Assessment
+- Organizational Readiness
+- Cloud Operating Standards
+- Daily Operations
+- Monitoring Procedures
+- Incident Response Procedures
+- Capacity Management Procedures
+- Performance Management Procedures
+- Cost Management Procedures
+- Security Procedures
+- Compliance Procedures
+- Backup Procedures
+- Disaster Recovery Procedures
+- Change Procedures
+- Documentation Procedures
 
 ---
 
