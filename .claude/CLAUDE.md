@@ -6,14 +6,15 @@ A platform that helps businesses onboard new customers with an AI-assisted
 guided flow: multi-step forms, document/KYC verification, and a
 conversational assistant that answers questions and unblocks stuck users.
 
-Built on a comprehensive 18-specification enterprise architecture framework (190+ parts total)
+Built on a comprehensive 19-specification enterprise architecture framework (210+ parts total)
 including Workflow Engine, Business Rules Engine, Security Architecture, AI Architecture,
 Integration Architecture, Infrastructure Architecture, DevSecOps Architecture, Testing
 Architecture (cross-cutting quality assurance), Operations Architecture (service management),
 Data Governance Architecture (data management), Analytics & Business Intelligence
 Architecture (analytics and BI), Enterprise Identity & Access Management (IAM) Architecture
-(identity and access management), and Enterprise Service Bus (ESB) & Event-Driven Architecture
-(service bus integration). See [Enterprise Architecture Overview](../docs/enterprise-architecture.md)
+(identity and access management), Enterprise Service Bus (ESB) & Event-Driven Architecture
+(service bus integration), and Enterprise Microservices Architecture (distributed systems).
+See [Enterprise Architecture Overview](../docs/enterprise-architecture.md)
 for complete architectural documentation.
 
 ## Stack

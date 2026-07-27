@@ -1,9 +1,10 @@
 # Architecture Topic Index — Searchable Reference
 
-Comprehensive index of 1630+ architectural topics across all 18 enterprise architecture specifications.
+Comprehensive index of 1810+ architectural topics across all 19 enterprise architecture specifications.
 
 ## Quick Navigation
 
+- [Microservices Architecture Topics](#microservices-architecture-topics) — 180+ topics across Parts 1–5
 - [ESB & Event-Driven Architecture Topics](#esb--event-driven-architecture-topics) — 160+ topics across Parts 1–6
 - [IAM Architecture Topics](#iam-architecture-topics) — 100+ topics across Parts 1–6
 - [Analytics & Business Intelligence Topics](#analytics--business-intelligence-topics) — 80+ topics across Parts 1–6
@@ -17,6 +18,226 @@ Comprehensive index of 1630+ architectural topics across all 18 enterprise archi
 - [Integration Architecture Topics](#integration-architecture-topics) — 50+ topics across Parts 1–10
 - [Business Rules Engine Topics](#business-rules-engine-topics) — 50+ topics across Parts 1–10
 - [Workflow Engine Topics](#workflow-engine-topics) — 50+ topics across Parts 1–10
+
+---
+
+## Enterprise Microservices Architecture Topics
+
+### Microservices Foundation (Part 1)
+- Microservices Vision
+- Microservices Objectives
+- Cloud-Native Architecture
+- Service-Oriented Architecture
+- Core Microservices Principles
+- Loose Coupling
+- High Cohesion
+- API-First Architecture
+- Resilience by Design
+- Observability by Default
+- Automation Mindset
+- Security by Design
+- Enterprise Microservices Framework
+- Business Value
+- Organizational Agility
+- Faster Delivery
+- Innovation
+
+### Service Decomposition & Design (Part 2)
+- Service Decomposition Strategy
+- Domain-Driven Design (DDD)
+- Bounded Contexts
+- Aggregates
+- Entities
+- Value Objects
+- Domain Events
+- Repositories
+- Ubiquitous Language
+- Service Communication Patterns
+- REST APIs
+- gRPC
+- Synchronous Communication
+- Asynchronous Communication
+- Messaging
+- Event-Driven Communication
+- Request-Reply Pattern
+- Publish/Subscribe Pattern
+- API Gateway Architecture
+- Service Routing
+- Authentication
+- Authorization
+- Rate Limiting
+- Request Transformation
+- Caching
+- API Gateway Monitoring
+- Service Discovery
+- Service Registry
+- Health Checking
+- Load Balancing
+- Failover
+- DNS-Based Discovery
+- API-Based Discovery
+- Heartbeat Mechanism
+
+### Resilience & Distributed Systems (Part 3)
+- Service Resilience Patterns
+- Circuit Breaker
+- Circuit Breaker States
+- Retry Pattern
+- Retry Strategy
+- Exponential Backoff
+- Timeout
+- Bulkhead Pattern
+- Fallback Strategy
+- Rate Limiting
+- Health Checks
+- Self-Healing
+- Distributed Data Management
+- Database per Service
+- Data Isolation
+- Polyglot Persistence
+- Eventual Consistency
+- ACID vs BASE
+- Saga Pattern
+- Compensating Transactions
+- Distributed Transactions
+- Data Synchronization
+- Event-Driven Microservices
+- Event Broker
+- Event Sourcing
+- Event Store
+- Event Replay
+- Domain Events
+- Event Consumption
+- Event Correlation
+- Reactive Processing
+- CQRS (Command Query Responsibility Segregation)
+- Service Mesh Architecture
+- Data Plane
+- Control Plane
+- Mutual TLS (mTLS)
+- Traffic Management
+- Policy Enforcement
+- Service Resilience
+- Mesh Observability
+- Pilot Component
+- Sidecar Proxy
+- Configuration & Secrets Management
+- Configuration Server
+- Environment-Specific Configuration
+- Secrets Management
+- Secrets Vault
+- Encryption
+- Dynamic Secrets
+- Certificate Management
+- Key Rotation
+- Compliance
+
+### Operations & Security (Part 4)
+- Observability & Distributed Tracing
+- Centralized Logging
+- Log Aggregation
+- Structured Logging
+- Metrics Collection
+- Distributed Tracing
+- Trace Instrumentation
+- Correlation IDs
+- Dashboards
+- Alerting
+- End-to-End Visibility
+- Security Architecture for Microservices
+- Microservices Security
+- Zero Trust Security
+- OAuth 2.0
+- OpenID Connect
+- JWT (JSON Web Tokens)
+- JWT Validation
+- API Security
+- API Key Management
+- Secrets Management
+- Runtime Protection
+- Service Authentication
+- Service Authorization
+- Threat Detection
+- Compliance Requirements
+- Deployment Strategies
+- Blue-Green Deployment
+- Canary Deployment
+- Rolling Updates
+- Immutable Deployments
+- Feature Flags
+- Progressive Delivery
+- Automated Rollback
+- Deployment Automation
+- Version Management
+- Scaling & Auto-Scaling
+- Horizontal Scaling
+- Vertical Scaling
+- Kubernetes Autoscaling
+- Autoscaler
+- Load Balancing
+- Resource Optimization
+- Capacity Planning
+- Resilience Under Load
+- Performance Optimization
+- Cost Optimization
+- Governance & Compliance
+- Microservices Governance
+- Service Ownership
+- Governance Policies
+- Architecture Standards
+- Compliance Monitoring
+- Audit Logging
+- Change Governance
+- Service Lifecycle
+- Service Versioning
+- Deprecation
+
+### Governance & Enterprise Readiness (Part 5)
+- Microservices Governance Framework
+- Governance Model
+- Service Ownership
+- Architecture Review Board
+- Service Lifecycle Governance
+- API Governance
+- Operational Accountability
+- Continuous Improvement
+- Microservices Policies & Standards
+- Service Design Standards
+- API Versioning
+- Naming Conventions
+- Resiliency Patterns
+- Security Controls
+- Observability Standards
+- Documentation Standards
+- Deployment Practices
+- Code Review Standards
+- Testing Standards
+- Microservices KPIs & Metrics
+- Service Availability
+- Latency
+- Error Rates
+- Deployment Frequency
+- Mean Time to Recovery (MTTR)
+- Change Failure Rate
+- Lead Time for Changes
+- Scalability Metrics
+- Resource Utilization
+- Cost per Transaction
+- Enterprise Readiness Checklist
+- Service Decomposition
+- Domain-Driven Design
+- Communication Patterns
+- Resilience Mechanisms
+- Distributed Data Management
+- Event-Driven Architecture
+- Service Mesh
+- Observability
+- Security Controls
+- Governance Framework
+- Operational Readiness
+- Documentation
+- Compliance
+- Cross Reference Matrix
 
 ---
 
